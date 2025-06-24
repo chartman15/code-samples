@@ -3,7 +3,7 @@
    Date: 7/29/2021
    Class: CPS 121 - Com Sci 1
    Instructor: Professor Fahringer
-   Assignment: 7.1 - Standardized Test Scores     
+   Assignment: 7.1 - Standardized Test Scores (First Part)     
  
    Purpose: To read test score data from a text file into an array. The array will be used to determine the 
             number of students who got a perfect score of 50 points out of 50 possible points.       
