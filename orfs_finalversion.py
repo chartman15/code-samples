@@ -3,11 +3,8 @@ from tokenize import String
 
 CODON_SIZE = 3
 
-# clean up by Elquis Castillo.
-
 #-------------------------------------------------------------------------------------------------
 # Prompt User for filename with DNA sequences in FASTA format
-# Author: Caleb Hartman
 def getFileName():
     while True:
         filename = input("Please enter your chosen filename: ")
@@ -22,7 +19,6 @@ def getFileName():
 
 #--------------------------------------------------------------------------------------------------
 # Get the minimum ORF from the User as a number (default 50)
-# Author: Caleb Hartman
 
 def getMinORF():
     minORF = ""
@@ -40,7 +36,6 @@ def getMinORF():
 #---------------------------------------------------------------------------------------------------
 # Formats the sequence by eliminating whitespaces and lowercase letters.
 # Returns a formatted sequence
-# Author: Pratham Dhanjal
 
 def formatSequence(sequence_format):
     full_string = "".join(sequence_format)
@@ -53,14 +48,12 @@ def formatSequence(sequence_format):
 #----------------------------------------------------------------------------------------------------
 # Formats the sequence by eliminating whitespaces and lowercase letters.
 # Void Function
-# Author: Pratham Dhanjal
 
 def addSequenceToDictionary(dictionary: dict, key_dict, sequence_dict: list):
     dictionary[key_dict] = formatSequence(sequence_dict)
 
 #----------------------------------------------------------------------------------------------------
 # Read all the sequences from the file and output a dictionary relating each header to its sequence
-# Author: Caleb Hartman
 
 def readSequences(seq_file_name):
     myfile = open(seq_file_name, 'r')
@@ -86,7 +79,6 @@ def readSequences(seq_file_name):
 #--------------------------------------------------------------------------------------------------
 # Find the start sites given a certain codon offset.
 # Returns a list of start sites in order
-# Author: Pratham Dhanjal
 def findStartSites(sequence_input):
     index = 0
     start_codon = "ATG"
@@ -100,7 +92,6 @@ def findStartSites(sequence_input):
 #----------------------------------------------------------------------------------------------------
 # Find the stop sites.
 # Returns a list of start sites in order
-# Author: Pratham Dhanjal
 def findStopSites(sequence_for_stop_sites):
     index = 0
     stop_codons = ["TAA", "TAG", "TGA"]
@@ -113,7 +104,6 @@ def findStopSites(sequence_for_stop_sites):
 
 #---------------------------------------------------------------------------------------------------
 # Prints out the ORFs in a formatted manner.
-# Author: Pratham Dhanjal
 def printORF(tag: String, frame_number: int, position: int, length: int, sequence_print: String):
     if frame_number > 3:
         position *= -1
@@ -134,7 +124,6 @@ def printORF(tag: String, frame_number: int, position: int, length: int, sequenc
 #------------------------------------------------------------------------------------------------------
 # Get all the forward ORFs from each forward strand frame and store the sequences in a list 
 # Return the list
-# Author: Caleb Hartman/Nic Duggan/Elquis Castillo/Pratham Dhanjal
 def ProcessORF(all_starts, all_stops, user_minORF_entered):
     ORFs = []
     for key_, starts_ in all_starts.items():
@@ -169,8 +158,7 @@ def ProcessORF(all_starts, all_stops, user_minORF_entered):
 
 #-----------------------------------------------------------------------------------------------------------
 # Get the reverse complement of "sequences"
-# Return the reverse complement
-# Author: Nic Duggan/Caleb Hartman 
+# Return the reverse complement 
 
 def rev_Complement(sequences_to_be_rev):
     allrevsequences = {}
@@ -187,21 +175,18 @@ def rev_Complement(sequences_to_be_rev):
 #----------------------------------------------------------------------------------------------------------
 # Find the start sites in the reverse complement.
 # Returns a list of start sites in order
-# Author: Caleb Hartman/Pratham Dhanjal
 def findRevStartSites(sequence_start):
     return findStartSites(sequence_start)
 
 #-----------------------------------------------------------------------------------------------------------
 # Find the stop sites in the reverse complement.
 # Returns a list of start sites in order
-# Author: Caleb Hartman/Pratham Dhanjal
 def findRevStopSites(sequence_stop):
     return findStopSites(sequence_stop)
 
 #----------------------------------------------------------------------------------------------------------
 # Get all the ORFs from each reverse complement frame and store the sequences in a list
 # Return the list
-# Author: Caleb Hartman/Nic Duggan/Pratham Dhanjal
 def ReverseORF(allrevstarts, allrevstops, user_minORF_entered_rev):
     reverseORFs = []
     for key_rev_orf, starts in allrevstarts.items():
@@ -236,7 +221,6 @@ def ReverseORF(allrevstarts, allrevstops, user_minORF_entered_rev):
 
 #-----------------------------------------------------------------------------------------------
 # Homology max score function
-# By Elquis Castillo
 def homology_search(seq_1, seq_2):
 
     #algo based on the following lecture: https://youtu.be/6Udqou3vmng.
