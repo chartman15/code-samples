@@ -1,0 +1,1361 @@
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/04268535-87e6-4725-86a9-a6db8b963087/TCGA-44-2661-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/242439e0-878b-4177-aeac-611bb1567284/TCGA-05-4418-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/38e80f39-a028-4bc4-bd24-31903e2ed708/5ea8e18d-2d34-4c6e-a89d-36de5e91e80c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/47070bb6-999f-4b6f-94c0-521461e499f5/817f99c7-c47e-4275-b83b-227c7623f037_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a9cf506-37c5-4c3f-923d-448acdad15b5/TCGA-05-4430-01A-02D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c90bd62-0d33-4b42-aa8a-2c0ca3e3073f/TCGA-05-4432-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/57df742d-a7e3-4e88-b58c-c054b4908335/ea6c652f-4896-4d57-978d-7528578bb153_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5c79a37a-7f4f-4a6e-954d-9d1967c33552/26ed24ec-1ad1-492d-b2cb-46314b47919e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7ad159a6-1712-482a-b201-2c1d010d4e09/3fbf4da2-16c9-49af-a5b3-3dc6c928e75c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/86ef1201-3f04-45ed-8fd5-1cb34f3d65a1/9c982400-b6c3-4d00-9981-ba06775fef4f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f35bcfd-4ba9-46e7-8bf1-ea38d2e2ec1d/8dc8f884-f58b-4efa-ae96-c87ab7f6d991_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aeb72a02-6ac6-4a7b-8335-6f10cd46e470/TCGA-05-4434-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/afbae716-e724-468c-bbd7-cb19f84037c6/TCGA-50-5045-01A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b214b924-4434-424f-a3c2-e040914866e2/42839a7d-81db-428a-ab3b-072acd26ca91_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b785c2e7-8f1e-43b3-858b-434faadcb450/6b6663fe-f439-4546-b256-0024f66f748d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b98641d9-de17-40c7-9142-d4e8508ab26f/TCGA-05-4426-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c56e3ed3-a387-44a0-8502-e5a476763778/2270abd6-565b-46b6-8154-505c5659a7c3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c9924c30-0077-4979-a0af-dfba844de61c/e3818e87-d989-4a3e-a1f3-8a1404f3c5e0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/d93d6f2d-3596-4540-bb0b-d56a4190d35d/eccc6a5c-bb25-4591-996a-ee2a7507f771_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/e001a461-8878-4bd7-97d6-a2cf07fdff1b/0d19db25-28c7-4223-978d-694a4520d8d3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/e02bcbd4-92c9-428b-8bd6-e3c76f2b2d74/323e338b-1ba7-49e2-811b-c1fee673a926_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/eef854f3-7d9d-44fa-a120-9a57328084ac/c14a77d1-db59-434e-bd3c-dbbe647d790c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f5752ffd-6cc3-4619-8560-c1b94865fc02/TCGA-50-5049-01A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07fb62be-f93c-42d4-ae1c-09ee3668c343/ae15bef8-478b-432e-b429-643a75bd2eb8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/109bd3d2-389c-4701-a007-40e16cad3ea9/TCGA-05-4430-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13ba6bbb-ed07-4c33-a078-ca89e7685cea/1bf4cde2-93bb-4471-b7fd-ebcc768cd8f6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13da15c1-5eec-4d9c-82c0-652bd553b8a2/a88d69ef-be3c-4341-ad6c-0f035685862f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1bb40cf5-e178-4278-b986-8ed06dd40732/0c850234-0109-4ab4-b0b5-7e7e976baffc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/310dc3da-989d-46fc-824b-7366f4e2c97e/b242aeb9-bb77-41e9-a571-97f14615b45c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3673b3d9-10b3-49b2-9dfe-004d06df6e8d/TCGA-05-4434-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3c537451-b550-4cf0-a650-a418e47a7e37/9267239f-ffab-4ab1-a14c-96e7c6a624e7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4156b0e5-0455-45e6-ad2e-4c9c1157f806/c57ef4f0-5be8-4761-9763-5052efdfd7d5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/543be497-221b-4383-93b0-630b90001eec/TCGA-05-4426-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/63200a26-3ffa-4b0e-b8e7-80a62b1a213d/d3182b5c-ba8f-49f0-967e-a209011b552b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/699af1ce-0ee5-4ea0-a684-32d33e84c0eb/45071530-5d0f-4850-ac8f-96593d9792b6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/769c61f8-10e9-443d-b131-2b61a5b4e6fa/TCGA-44-6144-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/774e4e25-7aeb-45ea-822f-d7d9f61112cc/5c292720-2298-4865-b541-a4a822b0b768_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82dbbcb7-cb81-4b8d-8f02-d17cb710e4ae/0f4135a4-53d2-499b-9f1f-12a9317ede14_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/83290c22-f6f9-424b-a5cb-cb3db4211e00/TCGA-44-3396-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/93da9d4b-7323-4857-8d3f-bbb1728291c5/2eb474b5-5e99-4041-bfd3-7a50f1ca9136_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f8ef09b-5fb6-436d-95f5-5647ddb24430/8641683b-986d-4a4f-878e-ce0e3754727f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ae536c2e-5ddf-4244-b286-e7cba6d00ed2/234c1669-e9df-4c3a-9bc0-d44365ec4a2c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/af062e6e-36a2-42fc-9456-381f06d8fd32/d161ed6b-fa73-4243-bffd-921d92db4e13_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b1d0528e-489a-48cb-a721-25ebb9f9c8aa/TCGA-50-5045-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c040b5c7-18c2-4824-b8b9-81c250da1f30/eb55eb34-8b04-4814-8fb9-2c437657e926_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c07aaf30-0527-4fbd-89c0-26b831fa0587/5f86d9c2-aff4-42d3-9768-5d578c80bb3a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ca570f34-1d7d-493f-9f6b-f5cffa6e8bb1/TCGA-75-6214-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ced5cae8-0fe3-4ccb-93c7-52535b2afa10/4071bfd9-5804-4f10-899f-5c5dfc27d93b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/d4c20720-7582-4c65-8cba-5bd569d7422e/8df0aeb4-1455-4760-a230-54fe1551d08c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/da328273-1259-47ea-a942-2cab17a9fd60/TCGA-44-3919-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/dd5b759b-bb40-4721-a996-5a759b97d426/TCGA-05-4427-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/e1ecbfc0-3341-4b5e-b22a-f1348380c0a8/8d610e60-a626-458e-b768-d3058f421662_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ebb4a92a-6cc0-4255-8940-877184e9cf1c/7186da3a-2d33-4087-9b1f-541223684945_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f122fa4e-adc6-4c58-bb87-3fc0c85435d2/TCGA-50-5942-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f4813161-00a8-4239-b02b-3155aa1e9a52/84e45797-0c29-4c62-8902-6a5b579f426c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f80df011-9726-42a2-872a-41b2262e9e2e/198687d4-99fd-4ca3-9bae-603fab00a5b4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f9554eed-9fc0-4b9d-9e94-7c1a8e2eb423/TCGA-50-5049-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f9ef2d37-c81a-4cbd-8648-df3ac6eb4ea0/c02cf895-93bd-4553-ad4d-9ac9d02a06c0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/fbf247e3-c49a-49d3-96c8-fb6d9161ff4e/TCGA-05-4432-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/fda83a93-f289-48e1-ac75-022f8ae52f4e/8637a9f5-39cb-4e47-9029-fb9b2f2ba2c4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0f54499c-8fe4-42e8-89bf-9f86b9ff585d/a4e437a5-1603-4ae4-89c2-cd741fde5015_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/10abf349-f85a-42cb-aa86-4705376d810c/8a64c790-988a-4b51-8e5f-b4f746f2d9eb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/01f2c8b1-b5bd-4536-9762-e5456182b87c/7d13b485-47b6-4326-bba6-28c5e5014829_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/79b1ab1b-8bf9-411b-aef7-24f70fa3c4c8/7ec94b2f-ecf5-407a-9d70-6c158288f30a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f828f8b-28cc-4333-b1c8-a594355339e7/8b98b536-3f48-4fa0-8fdb-ec787499cbd5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c878fffe-a377-4481-ace7-971a519c9a4e/92bc38c1-04f3-419f-877a-0d020898851a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5b53713a-3d04-4629-852d-00aeeadd9362/9621f560-ac27-4563-9798-f982ace7944b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5d7e14de-ee5e-4f32-909b-1122749f0b89/a35054a5-9324-47ad-841e-e2adcd97126d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/e477053a-32b7-422d-8d1e-fa5d3a01dd0c/12dd6ce5-e646-4eaa-a888-f7da0073df4c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1760235e-28a1-4509-ad01-e96a5b4e79ae/5f5307b5-02ff-4262-bb72-a215897b2ea7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/de36a752-31ea-458e-9438-c7803d89ce6b/aa7559ac-f8c0-40e5-a313-3914a6e4559a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0ed82e37-2bc0-4c86-8ce4-4db20b735e82/78734754-0680-489a-886b-2f5fce472560_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/21b04e79-111b-4500-aeef-37c4bd0b88d3/5e511caa-31c9-48f7-bcf5-dd3838bd9b30_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/74d0b175-7395-4024-a147-ed223844e6a3/48f1ff7f-84f4-4420-96f9-da1917577b6d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/98afdae4-73f1-45f5-b227-d34cc4e64d4c/TCGA-44-2661-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/f0807d8c-4898-439a-983c-f07b851518ec/f6bc0314-9f2a-4e5a-85bf-2b1ee89b69ac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/20b109a4-286c-4068-9e81-95fe52ffeb9b/09a8a60e-f929-467d-a666-b61f784a1e74_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3bcec07a-aaac-4568-816e-9dce2a8241fd/0efbf4ab-3129-49bc-8c52-bacb6986b49c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6436ae32-ee17-4110-b3c4-3877433f0c7e/18017bd1-d8cf-4ec6-9afe-ea7d932d715f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/71e1017b-6ec7-4f59-b239-55e131db719f/ee00d48c-1aa6-4314-9716-3e01c48987eb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c050ab4d-1b0d-49c9-87b4-286b363cce72/33fb97c4-b12e-48b8-bb7b-4d0204a86e0a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c28cf498-7a65-4c94-946a-5912a867c074/338e6b29-f1bc-4eca-a248-317119e9e797_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/c7735968-625d-4dbb-9f15-6feb8a1ac259/f76ef845-8a03-4b61-b1b2-3f0b4ae5a759_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ed07323f-b2bc-4ce4-bb90-baaad2f2a5bf/e8291a63-47be-48a8-8c42-d41f3e4dd6a4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/41061c24-a568-45c2-ac2f-f36e39af6ada/5e791b10-e5fd-412d-9f42-72cac197f253_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/766c478f-f172-442b-bc12-c3f28f836077/TCGA-05-4402-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a4bf19d6-31fb-4edb-ac07-990837e32d5a/c437535b-2acc-4236-beae-94e2c1336830_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/bc55ff44-7f66-466e-a425-0043886d1c34/606e6830-c9fb-4107-8bd4-253c193d56b6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0c487d3e-8fbb-4f02-bad4-daa5fba2e7b1/54215cf0-b4f8-4f34-80df-6a7969edb478_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1fb2dcea-712b-48ae-95b7-b4ec83442b33/bd0f8bd1-7b13-4e5f-9b7d-3d5577b910b6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/282a67a3-4d9c-4fe9-88fe-b3a42b13f710/0cc2396a-e821-4251-a249-303d89cb2cec_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/368df520-fdc8-4796-9f13-dd4c382944d0/5d48ddb3-ed53-49cb-99b9-b75fcecca1b4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4e2a472f-cf5f-43f1-97e9-27d25adc9d4e/d30ec39b-bfd2-4f51-8c04-6ca0d59448c5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/507f3f72-07ac-465d-b80c-7a53954a76ae/11f505fa-9306-468a-bbcd-d278892da83f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/d0954874-c1ad-4c67-9009-d8fb505ac7f5/ec643748-14f8-4274-879f-c0813193a45c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ebbd2d6b-1497-46d2-9259-62ea25c9251c/fb64cda7-55e2-4c9c-b48d-80d870603c5e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/004f4ac8-5b03-4ad1-87ce-191678a71af7/TCGA-69-8253-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/00a13710-8af7-49c4-93b2-1e56f79b561b/TCGA-L9-A7SV-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/00e50afe-772d-4ff9-b153-8ab36badaac1/TCGA-05-4245-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/014e28b2-cc10-41de-b902-ff9da9e62c08/cd1ad722-0391-46e2-862f-2b53d82d03d3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/01815b4e-e5f9-4a38-a2bb-123b87a233a2/TCGA-55-7815-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/01824a29-3ae8-4ef1-bf3f-173d271e0339/TCGA-97-8177-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/01a1cb13-879c-47d5-bde4-a8fbceb7839b/TCGA-44-A47B-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/01e70b8a-b229-403c-bf5e-d9531c34c414/fa9b9998-8ccd-4f41-98bf-07f8123dab0e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0204329f-2db7-45ef-a273-018df16917f2/TCGA-97-7553-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/021e278a-b94f-4585-8b3c-0e9c7640341f/TCGA-44-7670-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/029caeb9-79aa-48ab-8fa0-b1123448a177/09dd9098-5702-44a6-b9ea-f148ece1e264_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/02be7cd0-727e-411a-b02d-f2a9382080d8/TCGA-97-A4M0-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/02c52fd5-52be-48c5-8265-dccf7e1db722/564e82b9-e3c8-4ede-8e58-be9d0ba157d5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/031f05bc-1cff-483e-a7f3-afb398b0d222/TCGA-MP-A4TA-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/03260fc9-1677-46e2-a303-2f828c6872b1/TCGA-95-7043-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0356c8ca-aa1e-418c-b3c0-ad3146a658ff/ee1d241a-b371-433a-9af7-f1c9074c155f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/035d6e3d-7f24-4777-a43f-ac14d0376aa7/de3089c4-018d-4b14-b186-14a5e3e34745_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0377cdec-7521-4165-86f2-27fdcd8d4f22/TCGA-78-7160-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/038779c7-eec1-4c51-b169-5734d69a955c/TCGA-97-8179-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/03907709-2f43-403c-8d64-714c39fb492a/TCGA-55-A493-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/03b57fed-a31f-4e61-8969-8018ec159abb/75ba9856-59f9-4bbb-8d6a-91cbe60e75c2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/03d5c62b-10fc-4d23-bd9a-cd325fbf65f8/TCGA-86-8056-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/046113be-b268-42ec-a173-7b822aa85341/80170e98-4886-4a34-bc88-f2b2f84743b2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0469a236-ef02-4fdd-9e63-681cd318450e/TCGA-05-4410-01A-21D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/04b9d3e1-30ea-47a9-b69d-31545cd4e830/TCGA-50-5942-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/058d4ecc-706f-4aee-b522-33ee900d5d07/TCGA-05-5429-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/05907bde-7694-4aa1-b9c8-78751643e28d/TCGA-55-8512-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/05de8bd1-a01a-4bc7-a079-55c7d93f219f/TCGA-55-8616-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/05fe9339-b0e0-49c9-b4e6-1e12b3732416/020fab36-c7de-4933-b2bf-dc7b019a1326_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0665ef25-3043-45c1-a6d6-0aca220916a5/71e3a02d-4557-4ff7-b759-56f7fb43dcb3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/06a5160d-0010-4a0e-afc5-08c9b6cb47d2/6c9a73d4-8e10-4957-9739-603eaf942bbd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/071fbf73-2572-4aaa-bfef-29406648d89f/TCGA-69-7973-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07309a6d-5771-4bdd-9bf5-cab488ae547a/TCGA-80-5611-01A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0747083f-353e-40b4-b42c-bd3b732bf961/TCGA-78-7152-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07b95f1f-bab6-4821-a8ba-c1b561e2f6e0/TCGA-MP-A4TH-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07c59a91-ceab-44ac-ac6c-f6a4baca9549/83902d13-5fd4-4640-b20f-3a8110f6d5ec_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07d005f9-0da8-4b3d-b32e-be2cc4771e32/d2150d6c-5e42-49d0-b65f-59a3004b1a17_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07d04dcc-7d3c-4345-b799-7aa083795769/6e7d016b-1f48-4dd7-ad23-ff8a7530f765_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/07ecf72f-c828-4e72-a8b7-b800f2120f54/e0a38249-0391-4908-ac36-49c6ab702bfe_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/081d1251-ab17-4978-8d05-1ec696aa79e5/TCGA-55-A494-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/092336e7-a89e-429f-8c13-9feb669a8bbb/168fbd42-a124-4c8e-85f7-8d31c162bad3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/09601b1e-3cf6-4653-8613-5c51ce346058/4a9ce8bd-13fc-443b-88c2-21e515f3ac46_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0962affb-6a41-432e-b3fd-12157d646720/TCGA-78-8660-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0967fe51-fdc6-4bc8-ae58-1bfa2f489ad0/9a45c8bd-b122-4e13-ad72-e9ce655fe37f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/09e85178-7667-4143-af0b-565a4320db96/TCGA-62-8398-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0a1b707f-ea7e-4e59-bdd4-75881930bf32/3c9dea20-8db6-4b9f-8411-342cbaec6973_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0a40ae81-1115-4d35-8c68-ae7ba21d2170/TCGA-MN-A4N4-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0a619763-c7ad-40f8-bf5a-3a308bf50407/bc815d3c-0d18-4355-842a-05b42f967928_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0a7b0ca6-35a8-4eda-9ba1-a02d423b74bb/TCGA-78-7535-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0a9d03dc-4fb5-4ab1-94b7-69466d073fd3/TCGA-78-7148-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0ab7f2ec-a4b8-440c-aa6f-bdd545d5a3ae/TCGA-NJ-A55A-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0aeb3d08-71a7-4188-a8ec-5da5f8c74090/TCGA-55-8513-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0b3b915a-2233-4a6f-8732-84073a24468d/TCGA-05-4402-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0b466f73-1c27-4d17-b2a0-b99148adb30b/TCGA-05-4417-01A-22D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0b9bc281-53ea-4a1e-9f96-c36932a17ea0/TCGA-62-8399-01A-21D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0ba28728-d170-4af8-9c67-183e085d13cb/b6836dcc-f7d7-45bf-ae7c-de6f2140779e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0c1cb94e-b291-4892-9c9d-4124cf348a13/TCGA-44-2664-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0c43ac1c-6d1b-460e-8b20-7606d03b9717/a92d1beb-84cf-4b70-ae52-d32fefe8eb8e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0c53e561-f353-47dc-bfef-9bd06a0f3e80/TCGA-50-7109-11A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0c7cd63c-e300-4cb3-8729-78367b69639c/TCGA-38-6178-01A-11D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0cbc7bc0-2690-4757-83cd-e193f7a1333d/2bfa08da-1f8b-46e3-af69-bf4f85dadffc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0cf53ae2-8ff2-4cbb-96ca-fdd3a54af6ea/TCGA-62-8402-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0cf8bbc9-b45a-4e9e-b97d-52e8dc698bb7/da1d674c-9ec2-4822-8cde-9e4e655b3098_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0d35804c-d771-40e4-9ca1-830bf1e07255/5adf6723-471c-44ae-a7ae-004c019d3664_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0da78699-59a9-413d-a523-f0849ff7cd12/TCGA-86-8358-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0dd9a18d-cca5-470b-b1b1-e3bb460c1b8c/TCGA-97-8179-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0e59a472-9eb3-4100-9c01-02389a923656/6051356a-2f32-44f7-a36e-13ad6eef6f00_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0eceb847-0e38-44cf-b5c2-dd4bf27caae7/TCGA-78-7539-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0ee63965-6e06-4482-a05a-093ce354597d/d20b4b63-2d12-4958-9ba8-e8b7538ca472_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0f124c60-527d-489b-98f6-8901632143a2/58152fdd-7c80-4d93-9c79-ca078a9504fc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0f4bc37c-7f03-47d9-a896-3f49529327e4/TCGA-75-5126-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0f840f3c-30b3-4cf1-878a-c9754815eb78/TCGA-MP-A4T8-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/0fc95470-6f05-4309-a343-a4890fca6b60/TCGA-44-5644-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1027f76d-b2a9-4f0a-b173-d52d81eef832/a8088515-6622-42ba-93b0-84229c023c6f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/10966bf6-79dc-49ea-be32-913d15627735/TCGA-L9-A5IP-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/109924b5-9518-4921-96bf-b0f6aede1075/TCGA-69-7765-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/10cec7d8-0242-4209-9a55-1850e37ee899/TCGA-44-7661-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/110ae0c7-2e17-435f-80d3-036b3bbb2116/029d36df-0c54-40b5-b320-44f858085d75_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1117a65d-df69-4f64-a527-445b567a238c/TCGA-97-8176-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/111bb7d3-a187-494b-9456-ed7508e51abf/TCGA-S2-AA1A-01A-12D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/119e732d-c545-473c-9f6b-3af8c736a90a/40acf290-13ff-44d8-8cc7-9fe9db183619_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/119eddc6-d646-4086-ad32-ad6d54376e39/TCGA-62-A46S-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/11d5bc1a-045b-4686-ae75-9c1b68156413/d8fc8193-4ec6-47d1-9398-e5f5611af08f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/11fa52c1-75f1-4352-946e-6b1ed20e5f19/5a9cc667-3b86-4891-a811-73946b734d67_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/12032853-ceb2-4652-a55f-c728d387760c/TCGA-64-5779-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/120f38fd-08e1-4886-8347-a2b782f46171/03db87cd-5705-4f69-ae8a-d3df5310b8dd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/128a3ee0-3aba-4fd2-99bf-83e7ff4b3ab8/0e97d3d1-5d3f-4c56-a1f0-f5670fb27732_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/12e09315-66c3-4c75-9ea9-ce7ebf7b7175/TCGA-55-A4DG-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13032ceb-4a5e-4c82-9100-cf7caeb1c8ce/83ab18de-9064-4d9d-bb95-0d1f05bc0129_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13138206-980d-4bc3-88f6-20c808b0bc68/TCGA-69-7760-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/131523bd-c48a-4da0-b855-6a871db030d3/TCGA-62-A46R-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1374ce0e-38a3-438d-a6b2-05cd1c0a76fb/TCGA-86-8359-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13ad0835-b4ed-470f-87c1-ae86bcdab5de/TCGA-75-6203-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13d9d69b-a688-41f4-bc06-78bd41c69f4c/TCGA-NJ-A4YP-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/13ff444a-c692-47b1-9a50-8383bbd278fe/503a3086-3453-4aae-987b-019fbcb13272_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/14581d9f-99bf-4a9b-b29f-9e1b502cc8e8/b1e2d407-8c0f-4339-936d-a6b0cb504476_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/14865edd-ff32-4beb-9225-4730647ea184/1b7e4e3a-10f5-4208-bc28-1f4b65193aae_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/14a061be-c6f3-4d09-b731-38cb8d278cca/TCGA-55-8097-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/14b2700d-cb62-491d-8d64-4cd362d77a9b/TCGA-44-A4SS-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15139b1d-da84-4d18-bbaf-191859c239a0/TCGA-78-7160-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15508a3d-6d24-4545-a352-e223cba0487b/TCGA-44-6778-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15c03f8b-a2e1-44e8-818d-5bf1503e149d/44ca0e9d-0399-41d0-ad3c-f3b18121f58a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15c9aaa5-0017-4ae5-a270-fa7cff6250d0/TCGA-62-A472-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15d2beab-4277-4611-93cf-3c20d4da1dda/62e9b0d2-3a69-47ea-be27-551213d303cc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/15f30f83-446f-457b-965a-8d7ae853c6ca/faf230c0-8962-4c71-a944-003cf91de8f5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1613584e-cddb-4a67-9119-033a30876d0b/TCGA-99-8025-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/17185ccb-60a3-442a-a7f1-20cc530ff404/900a4c89-cd98-4f90-aa26-ccc7b285a8cc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/17c86593-157a-43ca-b9ea-f3429d9c854a/TCGA-50-5066-02A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/17e4e9b7-73d4-416a-8bd7-774bbcbf8e14/36ab7f52-9d9a-43aa-a2d8-e97c8c833e0f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/18096ad2-7566-4c3f-8ccc-5af8c778c2e8/TCGA-67-3773-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/180db8a9-0f51-4072-b670-115e124129ea/32fe5a7b-6f0d-4245-86b9-35055cbd71f7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1829853e-6b5b-45a2-872d-1b778ca7f426/TCGA-05-4427-01A-21D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1855f8a6-8427-4e01-86d9-f79a71b02f30/TCGA-71-6725-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/186465af-3ead-4dfb-a298-69cc6c437331/9e581e04-c431-49e6-8c70-dc84fbf35f00_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/18646fce-30ba-42c5-a627-26b4958e2522/TCGA-86-8674-01A-21D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/18810931-2373-4459-a11e-96da48377dc6/8d2fc21b-e831-44b3-b7ba-90f557303758_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/18a0166e-2c23-4a3e-bba9-09212301b8df/0ce6f3ed-bdbc-4b70-9db4-2e48f4bf644d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/18e15b19-b85a-4bdd-a201-17c1528ba945/967f0f6a-855f-4544-bd9b-e49909eb6acb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/193d719d-0e09-4883-9ae0-d2c37cdafc80/49a7ac44-c6ee-4ef8-b2e6-8628f205e269_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/194bee01-7a9b-454a-82a1-7a6777d7c61c/TCGA-71-8520-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/196bf104-72f3-4ed0-ba5f-fee811a0ad0c/fdef0a67-fe9e-49c1-a807-03481a221d72_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1988c177-fc56-478d-bf84-f45d7789a205/f193ea02-8fb1-460d-902b-5a1ee31a4ead_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/198e74ef-c252-4784-9ad3-85166f96d63a/TCGA-86-7701-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/19fe3a77-2910-4579-8340-b9c394a2995a/8f2b6096-2787-4d8a-8274-436a844628d2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1a18b05e-740b-4a67-88d5-3e4d5ad0d340/TCGA-44-2655-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1a371671-7ec5-4878-8925-801fa8a51881/TCGA-35-5375-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1a4ececb-12cb-4e1c-83d3-ce42b771cf2e/188354ee-420b-4822-aa33-ea890ccd74ba_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1a53338e-d619-4a94-b9f4-d9530a605d53/TCGA-78-8655-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1a848871-f560-4ef1-a6d9-1262e1455db8/6214fc0c-5b64-4611-b8f3-213a879615e7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1acf21b9-6ea6-4f66-ac52-e3a9d142fc63/TCGA-50-5051-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1ad6cf05-58e0-4656-8299-d78b5852db7d/6ba525c0-ac7c-4a97-b9ed-1d60d53afd0c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1aeb46de-a813-49e8-a7ee-fcbc93410d27/TCGA-86-6562-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1afd643e-97b7-451a-9271-e9f14d874b26/TCGA-L9-A443-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1b15a4d4-b62c-43bc-9eaa-99bfa2ef3555/5856eed8-2d53-48f8-b43d-a5523422b632_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1b82d703-ebbe-4da2-babf-67ebc5964588/ffd01953-5b92-4e5d-a316-a1360eba0889_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1bef61b1-b289-4d7f-8151-a4b2ebd8ab97/TCGA-44-2655-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1c1207f1-3e26-4ad7-a0e1-6f5a8e05a2c1/TCGA-75-6212-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1c79498f-c2b6-4b66-8999-53a08fde5f7e/TCGA-05-4245-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1c797505-5fd7-4af2-ba44-2241b8249daa/e93df4f6-b66e-42a2-b20d-c60b6e550b9d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1ca4064b-1f05-4519-962e-a5a5edd29ec8/6843db6e-8f8c-459f-9ba7-bb4575c68198_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1cc7ce8e-cd8e-4b6c-83a8-eaa62a40740d/TCGA-55-A490-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1d107322-9f7b-4d64-9505-4a79472b9d19/TCGA-44-2664-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1d1ddec6-74fd-4def-8245-1bdbfd97b1e7/fc76094f-98cb-457f-8110-1a4da5112b6b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1d736f4b-2011-426f-bac2-27c81f03ec26/b848c101-a80d-462f-b4c6-718db085a9cb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1dca6470-4f0f-4f70-9949-804aafabef94/TCGA-97-A4M2-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1e024d84-f299-475a-9bbf-9dab5266e849/TCGA-86-8055-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1e0274e4-de12-4bc0-8dcc-9bbd397f26f7/TCGA-71-8520-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1eac8ecd-361b-47fe-be7f-7553b83e4514/f8a1c395-e730-48f9-bf82-e8931e4af154_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1eb53958-e515-4ca7-8542-ce9191e18e88/TCGA-75-7030-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1f7e42df-1112-4673-a634-ef4fa3730560/TCGA-50-5946-02A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1f8a3995-6533-48ca-9a65-6464a1e19435/TCGA-05-4384-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1f9057b1-f2d4-4040-b93c-efa9d2fb9837/TCGA-55-8092-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1f93def3-1db4-44bb-ba5a-83f0c7707640/TCGA-05-5429-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/1ffdcdf0-b08b-437e-9e60-b737c7944693/eab29c94-5b9f-4943-97e4-5e716b338d0c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/20ac8849-315e-44f0-a770-9914fb96239b/02269ae2-869f-43ce-8b9d-48da01d16206_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/210286d7-1f29-436e-833d-a82ec485ba50/TCGA-44-A4SS-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/21345b00-a3b0-47d6-8627-930758e14626/79fee508-0f2c-4825-bd6b-32cb6acc6f83_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/213d3ee2-3477-429a-b73a-46cbe2c30f36/2578c781-0bdf-4ca2-a8fa-8b624489818b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/218bd4be-03a4-41c2-8ef9-bd2e09efbcb0/TCGA-50-5051-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/219ce8cf-0fd5-4175-b66b-c61161f76d8d/TCGA-67-3773-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/21c406cd-a345-4d20-b6da-a6c7767c2cbb/TCGA-62-8402-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/21ce6161-6083-4ea7-bd62-f0a5441369f8/1003f495-01fe-47ed-a717-b8769f0fa3a3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/221c2a5b-5d05-42f8-b568-985d84f6cdb7/8e39b00f-9d00-4415-94ec-088a207119e6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2248251e-9c31-41d7-83e0-a648140899c2/104b5c75-71a5-4757-a244-e393ab14fc0e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/22735437-7cc6-483a-addd-8658d3cc2595/b3359f92-6d7f-4bf0-a8bf-4b17a50af3bc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/228c69ff-09eb-4c2f-bc9a-d54a9980598a/43910455-a102-4c16-908b-fd36eb9635d8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/22c46e53-2c36-4e21-848a-49693f565dfd/TCGA-55-7913-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/23021435-a945-4657-8159-067576c5273d/TCGA-53-7624-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2327473d-9e7b-40dc-a2a4-8e6e91d50308/6b977266-994d-4440-bc09-59fd8737f2d0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/23322690-48b4-4ef5-98db-d8ac39795249/68c2a355-862c-4657-b296-5776ed8447b0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/237b4fc5-b329-480d-a038-a7d0af15eb23/TCGA-55-7724-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/23828bb1-4f47-4010-9d1d-effb2a34d3f0/TCGA-55-8514-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/23829d4a-6e04-4517-bb32-f0793e78738f/TCGA-55-7283-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/23b4640d-8cc4-4e31-beee-a63c42275f10/TCGA-67-6217-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/247f8728-ce64-4ceb-9007-d26f9b4a9c1a/a373fdb4-93ff-41a8-b64d-305493ff59d0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/24d0f10c-909a-40c1-baec-eb66ffc4fdae/TCGA-95-8039-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/250d99c9-0a3d-4940-9b72-f45bd8f3482d/TCGA-97-8175-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25194e28-7e40-4ef6-b43c-234a09a5d785/0f2760d3-4015-4e5e-afd8-0325ae5a7d9a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2538782d-0ee7-40f5-8975-9ded62503365/b15a7ee4-0523-4dc8-a4ac-372b8e66e3bb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25728cc2-440a-4d7f-8527-24e87c03c9d0/TCGA-44-3396-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25857522-1d0e-4e6e-b5aa-8d3b9780c726/229b83ac-c90d-4807-8b2d-7e641ad0d967_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25a21d9a-f1c9-4006-8706-ec2d59142248/0a4ed026-3387-438e-8d61-82da7f187a84_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25cfbbe7-d967-42ad-b182-26bcb5475b5d/e9a7eb99-3cc5-40b0-8fb8-a918271a9ee9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/25ef063e-337c-41a9-9217-43bc2a4a1c0a/6d855a71-bd73-4e42-9bb2-6e42a70245f7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2613082d-795e-4253-b9c0-c9827012871e/TCGA-69-7761-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/261a383d-c78b-4c14-b920-11c4602a2707/TCGA-44-2657-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2620e8d2-5856-4d5e-bc80-79c2ce5014e5/9c7b3ac8-1352-49cd-8a8c-df6b19f6fd64_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/26333193-0a61-4126-8617-d9747ca10cd6/b7f11036-7ac4-41bc-a9a4-64162725fdfc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/266a2a98-faad-4695-9d67-c37b041d32b1/c1296864-a1e2-4ba2-8a8b-7108091cbcdd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/269ccd9e-4ebb-4714-bc23-84a8dedcbd62/TCGA-78-8648-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/26a9ed5b-530c-41be-89a2-de9364dd6f01/TCGA-69-8255-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/26b9236d-9f58-4e93-a254-95d21e836075/TCGA-44-2665-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/271eba19-c378-4a0d-a964-43bf8d0c73af/TCGA-99-7458-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/275c3854-bb67-4c53-8cc5-91e03cb4a154/TCGA-50-5944-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/276b4b44-784d-4a34-8c6b-e8fd3b15b232/ca27bdf5-676b-42c3-8e49-ebd4f86c1e2e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/27955cda-b713-4015-9b0c-c8c181a784e0/737a7a30-1f60-4d88-b94d-b5fcd996fed2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/27bbc684-3668-46d5-82a8-94da4a8c6a72/TCGA-53-7626-01A-12D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/27c0892d-f4f4-45e1-834c-2450aaf06707/04630e6e-9636-47e2-b66d-d65844afcf58_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2847b4ed-cddf-4b02-b1c2-dcee372f5306/TCGA-73-7498-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/286a332a-f463-4148-8d96-7e3b09ae7cf1/TCGA-55-A490-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2874c0b7-122a-4f65-ac2f-f277983696c9/TCGA-55-8208-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/28c29989-feb4-407b-ab97-f9bea226a689/TCGA-78-7536-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/28f810b7-4070-4fa1-a39f-c2e4c85af8b0/26b29d49-3985-401d-b09b-ab0ebf6892c3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/29516049-00af-4d98-94af-548c05135f48/TCGA-86-6851-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/29609096-0e6b-459c-b949-c28b43b4037c/TCGA-69-8255-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2969bcc7-024f-473c-b884-6c68156abbf6/TCGA-55-A491-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/29939411-e1da-4143-aef2-c97fdac610e7/TCGA-44-6777-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2a22b30c-b9db-4c16-987b-22665763d395/TCGA-MP-A4TD-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2ac55033-f4d1-4682-be32-56fdcffb2b0b/TCGA-78-7633-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2af9e6cd-f40e-4fa7-a0fa-7e95607b1385/ed3e6e5b-71fa-4dbf-b53f-856623533070_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2b0446a3-fdf2-4515-a621-d44c1b56793d/TCGA-62-8394-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2b150c9d-c3ea-4ea0-9b0e-af074b1a1fc4/TCGA-55-8203-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2b26703e-c8ac-4b5f-8372-673071a50784/TCGA-78-7155-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2b99445f-e869-43e5-bc82-ccfa26e3532c/04ad8606-f9cc-4067-821c-bb964d10f1b3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2b9bfbd4-4d4c-48e5-8a5a-0d75079ee57d/23d86395-9e20-4cf9-bf7e-f76544a1f772_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2bed26d5-1145-47ee-b351-28eb051c71cc/TCGA-44-3398-01A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2c0d49a7-fc52-4f45-9fda-de2f52528ba1/TCGA-97-7546-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2c3695d3-0016-43db-9920-18013e7ac651/TCGA-55-8096-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2c43d76a-68d2-4981-8548-1c096261aafd/897827d5-4bd9-415d-88ff-f447f60aeaf2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2c7aa959-9212-4b67-b209-143d6232380d/TCGA-05-4395-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2cabd0d1-d29f-4cd8-88c6-3a14743a0567/TCGA-67-6215-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2cc625e4-ccb5-4cbb-8b88-4f911cbe5d51/abf949d3-fdc4-4669-b26d-623f01a500cb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2d0119f6-32f5-4a8d-bb53-1b4c738fdd90/24c13812-babd-4f88-8f6f-3c44d8ec06da_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2d37b3c5-13d6-4ed0-8c44-f8e348e3ef49/48a02a49-e77f-4a18-a2a2-3e28f13b25da_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2d744356-87d4-4c69-9936-47a86ff69422/6e660aae-3656-424b-966a-dec114cccbce_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2db08bc4-77d1-4a83-8a52-0a77a905242c/TCGA-44-6776-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2de1ea59-23b6-43de-8096-9fdf52a35e71/TCGA-55-7281-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e2f4ccd-5e11-4f3b-851a-e39f153c4758/3499550d-ba28-4636-b895-4e92059ccf23_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e3a83e4-fc0f-4643-83d1-1daba81f72a7/dc227d17-fed3-489a-b5c6-3d4c910310ff_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e45958a-71dd-4d02-8a2e-8e7daabfb353/TCGA-05-5423-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e80be1a-2c03-4b54-b1da-95378ad7cc0c/TCGA-MP-A4TJ-01A-51D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e8f549e-c832-437c-89ef-dd67511f7ef5/TCGA-55-8506-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2e973c93-0501-455f-b4df-328047bdf0c7/TCGA-86-8076-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2ee54d0a-e9cb-45fe-89b9-8dc9b589dd26/feaed996-83e7-46af-9e74-3d70b303ea6a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2ef9b8b7-e918-4edb-95c7-6e11d48f8bcf/7cff0df9-5e90-4692-a24a-c3d87d02cba6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2efa17e8-641c-49db-8a99-8cb77ad7bb65/6eb8ca4f-5503-4e6d-bada-2566a911123f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2f4c3827-1be4-447f-9e6f-7225d4fb56ad/TCGA-05-5425-01A-02D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2fb5aee8-0a2d-40bd-a138-6042527ab42c/TCGA-05-4250-10B-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/2fbe9fff-6215-470d-a751-fc7b37267ba3/ac0d75f8-b4c5-40a8-9044-0b74722424d8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3031f9b9-40d5-4c93-b4d2-a88cf3b03285/95bd4570-1588-4464-a301-aa425af048b8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30bba2a5-e379-4dc6-a364-f2bcce372280/TCGA-55-7995-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30c78cfb-c4dd-45f3-956e-5ced78ace3ce/TCGA-67-3771-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30d25bfd-8fdf-4d2a-8549-fd3aa4dfae62/TCGA-J2-A4AD-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30d9de8a-5e0a-4ca7-ab34-446d3252e5f9/TCGA-86-8278-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30ebcb31-50d5-4eca-a8ee-d5283c438f1b/TCGA-44-7671-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30f31a64-15f2-43d9-831d-42d41480be7f/TCGA-55-7570-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/30f9fd33-b1a0-41b5-b7b6-ff9a8714a2b8/TCGA-91-8499-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/311c2a4f-3669-4661-b11f-dc92474b2e5a/TCGA-55-7907-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/31378041-9fe7-4d38-9c3b-6178a87d44f8/TCGA-05-4420-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/313ea9c0-a885-441e-a74b-33d767c0447e/2f9f7057-af60-41fa-ab40-0eb76a8455fd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/314a70b6-1f42-45df-99ec-14bd61b0d601/fa8844f8-c4b6-487a-8187-e30c12a7a453_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/31684d59-8583-4cd0-b374-dfbaee004bcf/TCGA-73-7499-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3178d79b-b6f1-4876-a0a4-4fe89ef1de61/TCGA-44-A4SU-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3179cfb8-7b18-4759-9a11-b3fef8d317f7/4b3988b5-a60c-49cc-9dd8-323667a709e3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/318fed31-791f-44e4-bcad-90fe273291dd/TCGA-86-8671-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/31d760da-23a7-456b-8952-64936de44ba0/f019508d-d1b3-4f4a-9783-174fc200d488_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/31da5356-8b48-4d54-85a2-47e2d039c4d0/TCGA-55-7907-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/32429a26-2d14-4dff-940d-a7a4785b6415/TCGA-05-4390-01A-02D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/32469a9b-61be-4b84-b34f-ff51563560b5/b6dda01b-cc15-4491-9623-ac2d9b9e92dc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/32ac48f5-b01a-4185-ad67-9b546664cb00/TCGA-MP-A4T9-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/32fde1e2-762b-4b88-977a-b4b0378a9b25/e3737810-1e1a-411c-ab1f-79c490181df1_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/333557a5-a840-4521-8601-50144c8ae5f6/TCGA-67-3774-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3341e9b3-33e8-4e3e-a617-68e006ea2abd/TCGA-L9-A50W-01A-12D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/33d2a6a9-36dc-4a37-b055-23167bfe3943/TCGA-62-8399-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/341e8c8e-aa8d-4568-bf4d-262a26eaadae/TCGA-86-8668-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/343e19ab-12ba-49d3-8c62-b0bc0d05ad89/2fcdcb12-dc4b-4ccc-8e27-986db65670a4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/346a7692-6944-42ff-97ce-7f9929874510/ce4fa727-5e58-4c07-921c-2c3b9bc509db_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/34bfc4c7-5d05-4c17-8830-7079760a6601/0a4d4fc1-59bf-44be-9431-8e3f4f06bb90_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/34ee9498-3cbd-4987-81c9-a4a95b5fd02d/TCGA-75-6203-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/35d816a7-9ac8-411a-914e-517873eff948/TCGA-97-7941-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/35da6918-f7ee-496e-9084-fdc18a4f6ad3/0f421df6-426e-4bf1-8378-4994bbac9914_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/360b01ec-20e1-422e-aa2e-d5ca5cbdb70e/704b4714-b522-4ae3-affa-733fd095049c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3673527d-412a-415c-9302-23c6e89e72a0/TCGA-62-8398-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/36b861f3-6f83-44a9-9f56-b33fe6fc1449/6f28dc14-3a30-42ea-b6c5-b923e906cd0c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/36e5ffc3-2fb4-4e58-9fd2-24ce9eb8260c/TCGA-64-5778-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/371eddf6-0f87-4219-9c3e-a8be9a858666/925fd28b-eaec-4e8e-8568-1d32554b4b09_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/373d92e1-916d-4f2d-a234-e32b870ea2e3/TCGA-05-4420-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/376d2268-55b3-4c2d-b246-1531600d56ea/1cb341d8-834e-484d-9c58-2c4bb031de40_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/37fe7c37-b5d6-4a2b-969a-744d6cf98756/03b7e448-4d9b-45b6-b31d-a0676841c3ac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3865cafb-c354-4988-8593-4439fe2fca4c/TCGA-55-7911-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/386a4841-64d1-440f-b09e-42d6314a01ab/TCGA-05-4389-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/38b553c7-bec1-42e9-ae0a-408a3cac4bce/24f78df9-006c-4171-a99a-f7618624a7dd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/38dbb8f4-94ad-4673-9299-ce359eeb580e/TCGA-67-4679-01B-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/391b4b10-3f27-432f-8364-bf5a3b125f3b/4167cefe-e216-483f-a69a-e149465f72f4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/391f9f84-58f6-48d0-babb-adde66144adb/a607c014-3deb-4c3a-9b0b-5524b08c1014_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/39536901-fe82-4819-b0d0-20c595846dc2/a5089b28-3afd-4279-b8f5-9299ce0f679a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/397290ff-d75f-4ff6-83b8-1312abf57143/TCGA-78-8660-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/398f3e48-2b13-4257-b9fd-5665f44d25af/fdf9b270-14ff-4961-978e-5dff14d77feb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/39971012-7265-468f-8225-ddfb0564cf66/TCGA-05-5423-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/39a376ec-e22a-420d-b488-8b5ca6b74007/TCGA-97-8171-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/39e6dcb5-c0b9-440c-944a-0a9f07bf8ba0/TCGA-55-8204-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3a52e297-59fd-43f1-9b55-af3baf0dc74f/87d34f1b-bc3a-46ab-9f0e-bcf7b68d8a4f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3a78d767-f4d1-455f-bc11-8c18ed00cb77/TCGA-44-2665-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3a91b418-3288-439d-9afb-d63a9432c78f/TCGA-50-5072-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3abb19b2-23f1-4d18-907d-5356cb46b5bc/TCGA-55-8090-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3b0cb4a4-5398-486d-a7c6-3a9580983b59/dd8a0f54-0311-49fb-b270-abf1ae9b56a5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3b556872-3619-4347-98a1-3328f6e179e7/TCGA-50-5068-01A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3b7bf328-7f3f-47fd-a3d8-023ab9b0b8bd/TCGA-78-7145-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3be7ab7b-73ca-4436-adf4-bc62ae4c684b/7bcb1d5a-871f-472e-a964-9b68259d9716_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3cc911bd-190f-42a5-8174-4f19acc3035b/TCGA-55-8514-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3ceb6afd-1cea-4756-bbbc-e3da656564ee/d4e8ce33-0b06-4f30-9ed0-11326f3ab3a9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3cf52fa1-0e4e-4e59-ad41-c66cf9f1fbf1/TCGA-86-8669-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3cfe0807-c10c-4794-9134-4cd86ac84af4/837f5449-a047-430e-ad55-5e4541170e36_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3d235d50-2ee6-4519-bbd7-f0436af981a0/d6cc282b-5a2a-44c5-9f1a-7b6483edfbfc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3d87815e-ae48-4dad-a57d-c3e6593669aa/52910a60-bb15-4ba5-9d09-50d8ee6a445b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3d90395e-0d6f-4160-ba38-82c58937ea8c/9a9fa257-23b4-4b19-9cf0-26e9e13eb6c5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3e00de11-76d2-4e1d-8248-c69ce5ba08fa/0ec1598b-2b32-402f-bb6e-3c7bfee9224f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3e026732-4fba-46c8-8d0b-e27911887870/TCGA-75-6206-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3e074ec7-2e00-4a3a-9f8f-ae1c427d9825/TCGA-75-5146-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3e0fb067-4f0c-4806-a8df-d5b790ecacdf/TCGA-95-7567-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3e8364c0-246f-431a-b26f-a384c727b422/11aef70d-d22b-4936-bd8c-863bdbd4940e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3ea2cc85-1e55-419e-b23e-850885b0f076/44b055ef-f3a6-4933-800c-624376ddd41d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3edf40b6-dc2a-4425-80fe-01fb2740fe4e/51ff3351-1a43-458f-9bd9-99bd39fddaf3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3f1f3f9a-04b0-49d0-928f-7973a8b1e5fb/c0f67da7-7fc7-4c97-9d1d-ea984206252b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3f32b117-aff5-4578-99cf-df7ad1d2cd73/TCGA-MP-A4TA-01A-21D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3fa7774f-6a74-4788-b991-54178f62ca55/51bf36d1-d34a-4eba-a8bc-d13d9b021137_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3fb3d2d7-4fec-4b28-9557-caf6371ed53a/47d849ab-1fad-493a-80d8-698723f3d410_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3fb82272-e27f-4edc-a046-c8c97d1f7651/TCGA-NJ-A7XG-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3fe7cc22-bce8-4860-b5e7-4acb333c3483/fb4b08a6-ca30-4386-89d5-8704a4f586ec_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/3ff06612-dc34-4abe-acb3-d5a94c2c6ff8/TCGA-86-8672-01A-21D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4058ae6f-7937-4fd5-9893-4aa76cebead6/TCGA-97-A4M2-01A-12D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/40b6ab9c-c8a5-4829-9ac7-45e1b661e892/TCGA-75-5125-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/40ca5eb2-a6d1-45cf-813d-f616f7ad8bc1/TCGA-05-4249-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/40ee6c41-6fc0-47e0-a4a8-8795e87eb2e9/TCGA-MP-A4SW-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/40f9b5f7-25bb-4e20-b7e2-6aa55ff15ba1/23d77176-dfed-4bee-ac96-9934377d8d81_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/410ae93d-feb0-4b11-9b99-7c7d7bbe7fb2/TCGA-35-4122-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/41497526-065f-4398-a9fa-f08e7cfd4b05/862a6bd5-c175-4b8f-a425-37264e2b78b0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/41cd7aa0-08d6-48ac-94dc-40df7ca891b4/TCGA-MP-A4TK-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/41de9101-e961-4f61-b572-362ce2d3a81a/2e41bad5-941e-4ee8-a1dc-5bba14e89141_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/420a40f1-711c-4772-92db-c6e2ba73a1ca/1d88da12-e71a-4f44-8d71-da8957bdfcd4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4216bcc8-a6ad-4a4f-9534-589a2393194a/TCGA-75-6211-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/426d1378-e9ec-422e-afda-ff7cb0f37076/61b1812a-9455-437f-acf7-d1ac3fa9f215_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4292a925-518b-4c3a-8e54-f512427c467b/43acfb6f-d582-4016-bd27-24fa2b22b6e7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/42de9f69-6785-4f61-a07f-e295987fb706/TCGA-75-6205-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/42f29226-bad4-468d-ac23-5a4b24ae86cb/49dec0c2-8e75-4f44-a253-82b2ea605890_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/42f2ebb4-b557-4440-b1da-537cab434155/TCGA-95-7944-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/431eb1fe-4fcd-48e8-9b75-17a01df7ed7a/TCGA-86-8075-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/432f545a-4786-4a6b-94df-5ae3dbf3d663/2282cf06-9c70-47f0-958c-c9e5697ac2c8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/436315e5-9b9d-4120-a347-a08d0ace9e2a/a7e94d11-09b7-41bf-a21e-bc5c7da0a972_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/44156d7f-492a-45d5-a67b-4ff5714b7a3e/30b77a0c-3439-44e2-a586-5df68c0d0002_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/442240f5-9e54-461a-8656-1e804dddf0f3/TCGA-69-7979-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/445b69da-2bba-46b6-870f-1ed0b8761276/3f4bced4-f89a-43d2-9c5f-6f9683897fa7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/44cb21d7-b2ad-4edf-ad08-bb7de4965984/TCGA-05-4425-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/44f3839e-6069-4e90-8198-99c9a1901809/TCGA-44-3398-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4583dcfa-d4ad-43c7-bd13-6c57920677e7/TCGA-50-5072-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/45e2caf7-929d-46de-8999-d249dbe72d42/TCGA-75-5147-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/45ea520f-fc3b-4299-a20b-01a6b1db3159/TCGA-95-8494-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4648a8e8-b3ca-496f-b66c-879a2dc827db/TCGA-55-8513-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/46594029-593c-4671-94ec-b018df6a752a/TCGA-69-A59K-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4662c81a-7526-4629-9908-b6a5112ba954/db19b1c2-f976-4187-84d6-82b573192504_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/467c0418-bdc7-46c6-aa85-d240b148cc97/TCGA-83-5908-01A-21D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/474190c4-0292-4d49-b0b6-407ab7d265c8/45eee6f4-8aa8-42c4-bbf9-de7b7e2cd20e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/475dc9c5-3640-4af8-8f46-9589aad665c6/03a2138c-b699-47d1-a5eb-161399020946_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/478cdf18-fd47-4c32-b9a7-62a1665bb5e9/f663afd4-ea19-4e60-94d7-b4bc9aa54001_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4799138e-9add-4de6-aff2-ab3db2deb5a5/43fa0f12-dabe-4c58-bfe0-4acd6543ebcc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/47a6d6ad-186f-4e1a-9c16-06f3ca77da16/fea94fe0-8175-4cf5-a9b2-5f44632b3545_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/47b99a65-6d09-4583-b15e-77717eacaaeb/843a882c-c77b-4931-b48e-31307ca89b80_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/48032670-3777-4559-bcee-90ca318c7dd2/TCGA-44-6148-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4815cb76-ed46-41e7-865b-0fb72714a5da/dcc0a32e-ef17-4aa8-8321-a03137a61d72_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4822a02b-4c85-4567-92ef-b8373e0d77f7/TCGA-NJ-A4YI-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4867f501-6180-41ea-a332-401021e065ca/e23f7ef6-cf91-4812-afda-02d30b14af4f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/489e3da3-fc40-44bf-ab7e-b953e138648b/TCGA-MP-A4T9-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/48caf326-4125-4127-bc93-0d2e475ec8de/TCGA-44-A4SU-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/48dc0a75-a0c4-4062-8e67-92304065a293/TCGA-MP-A4TJ-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/48e57541-ebd4-41a5-ba9f-c757171321b4/TCGA-55-7914-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/49d1594c-f33b-4543-9be7-8466eb022c01/TCGA-91-8497-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a33712e-576b-41a5-bdff-7ef32d293016/TCGA-53-7626-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a3a997a-e9bf-41da-92d8-0e14048e5dd4/TCGA-64-5774-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a43046b-1163-4eba-8395-b35720e79899/TCGA-69-8254-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a778335-9e11-4af8-b8ce-997bbc3ea230/71cd46a8-30b0-4452-860d-3ed173c461a7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4a9b0e19-712e-4966-947c-acc7e30f55b2/TCGA-44-6145-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4ae7687a-86a3-4816-a306-43060d721811/TCGA-55-8087-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4b6b0c61-83db-4665-a974-887222542713/d2ffa731-14a2-4a83-964e-c9969080263c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4b732378-f299-48be-b5af-cea5a0b7d8d5/63b5d4ad-7a69-4875-9234-ef29dc419f56_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4baa8cb1-60e7-465f-8d37-6f74bec75222/5780d4d6-681b-440d-b7a6-31012ded5352_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4bd00232-1e81-433f-b42f-c987c38eb2ff/48f736b7-5039-42af-be2b-360a1200b9b1_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c00306f-26a8-4397-acbe-a5cfa239e1a0/TCGA-05-4433-01A-22D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c0dded8-535e-4539-a904-4f30b58bf1af/f62ba1e1-e8d3-4cd6-b0df-da289644ce2a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c26e283-2b50-4636-988e-9e9b33ff4f2b/1bc7a463-2e66-4c8b-a34f-05f7cca3b319_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c347c1c-aeb8-46e4-9127-425c30b09f68/TCGA-67-6215-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4c957fa8-f4b5-468e-a2b6-ca2dd8d1b1be/TCGA-44-6776-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4d307fcf-c9a5-43bc-ad12-c5e637390177/TCGA-62-A46R-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4d6203e1-6054-4bea-8b79-7edf7cef9171/d1765cb9-4a13-425f-8b2d-e632b656058b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4d9b4a59-d0bb-42c5-a1ed-961f48532abc/TCGA-95-A4VK-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4dbee61d-0515-4654-80b0-4774c2b22be7/TCGA-53-7813-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4dd1c7ed-5f7e-4699-b7e9-8cfb68f922d3/TCGA-62-8394-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4dda5347-44c3-4813-ac60-9cce6f4be260/TCGA-L9-A5IP-01A-21D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4ede0d67-d4b3-4f7a-9552-a8c5c64c7d16/a0e7abcc-38c2-4ef0-93d5-ae215759e06c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4ee0c464-3878-4fd3-b838-2c1c61dbdee7/0b25a29d-282d-453e-97be-96abfaf681ae_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4fb0c4a1-3165-42b1-b606-ff4a9f49a31a/74d09d7f-e0b6-4dca-a1f9-20a3f3d6d656_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4fbfdd91-b140-4acc-acef-ca41aaf2a34d/TCGA-86-6851-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4fccfe29-5f09-4ae7-aa3d-6e941336032e/TCGA-69-7978-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4ff090c7-4c60-4fbe-8feb-bfcf1c6953a1/280d0507-bee9-4316-9afa-ba0735a0eef2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/4ff3d7b7-24ff-4ac5-a785-99230ba7da87/78942c9e-d4ae-4d66-b756-afd76f55acda_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/501b8c23-4756-4018-8399-d7b29f6561b1/TCGA-78-7147-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/503cfb0d-f01a-43f6-a21e-3328fa8588fb/c4c0a045-cc32-40f7-9b93-63214c946740_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/50df3224-9592-4925-865c-ccaf200f8a21/67f3a466-c62c-4de8-bf3a-5c2c5544b472_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/50ef8c03-1887-41e3-9dc2-cc1c63fbfa38/TCGA-97-8552-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/519b2be9-0e5b-437c-ba6f-9962e22fb68e/TCGA-44-7669-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/521d5d9f-9710-4f84-8af9-270c150b4eeb/TCGA-55-7725-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/522d7dca-9551-416a-8437-fb6e3e94c494/0176cf1d-0760-4769-a493-277f4bb7585e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5236eebd-fd33-4d4a-9384-336d008d1071/356d01e0-df80-40c6-ba06-8cd4edfbd1ec_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/526a1df3-50c0-42b6-b9d4-78c65f9bbdd8/TCGA-78-8648-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/52ac601b-3dfb-41d0-a2e9-e293e4a25209/45479c86-60a4-4bac-9152-b9d4433841c2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/52e607d5-ec7c-40d9-a6cd-f39c0fa92b7c/TCGA-78-7146-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/53474dbe-be32-41b7-9702-34034b36b67b/TCGA-44-7661-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/534c928e-03da-4af7-8b66-73250b477a5a/f64d6df7-fcd5-498a-96b3-854297069bac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/53561555-de1b-4a04-845d-529a25f19f71/af101d0e-a095-4443-b4ce-28148ba0be0d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/535c0d18-ea08-4875-b458-c723345075ce/c1bdedb4-b97f-4672-af1f-a4fe419ff236_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/539ce176-ecbf-461b-b4e4-d1cd07689056/TCGA-05-4415-01A-22D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/547c8d47-5a81-4465-9bfd-9b2f2d5ddbef/46693a2b-5105-4770-a9e1-031dfedeb694_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/54d770d6-5f1e-4809-abe4-1f5aacbf7726/7e7b7260-2ea0-41dc-94bf-86c8d736561c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/54f761ef-7f18-40b5-8be4-58a9e30c0be4/TCGA-80-5608-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/551217c2-c7c6-4de5-b1c3-df1d8e0be2c7/cd2253b4-6c44-45fc-8300-61fb5d23a3bd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/567c14e3-5b41-4484-98f6-80db3020f18c/TCGA-44-7670-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/56842912-b313-4617-bb46-13d132d76594/TCGA-95-A4VN-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/56850329-8afb-4fee-9e1f-729df8a97a1c/TCGA-55-A48Z-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/56a3bb8c-dae2-4b94-b1aa-ded5172a9e04/0e595a0d-c2b5-4a52-99a7-15e52ff2ed6d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/56c200f7-87e6-4d01-8bfd-35558728d8c3/f3e003f8-bd6f-4262-ae8e-bb45f1dabbe6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/57391faf-aa37-4b99-a10d-fd32c0f1030b/448deb16-395e-480b-a492-374ffd9579fd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/57e0dbeb-a7e3-4f56-8bf5-a6fad4b4c3c2/3324fa3e-b195-4974-a15b-0c8d8ac2efa9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5800d035-337f-4264-a93b-dc607fece5e4/TCGA-44-5644-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/580a8c4e-0611-47a5-9e37-87beb5517468/9cb189af-192b-47b1-8c23-4527ede86404_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5815755d-03aa-44fc-8b92-d79c3aa48c9e/2c0d4a9f-857d-4c6f-b616-304ab5922a2f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/585bd43a-c97c-4e2a-abb1-c11491f16a3b/TCGA-91-6828-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/585c8fd3-4f4e-475e-a670-c5108302e31a/fa20b99e-a8f7-42aa-a081-4be72f073471_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5861002c-0b92-44c5-a2cd-b1fba7df0442/TCGA-05-4396-01A-21D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/58911e6a-2691-46e7-9ac8-a1e360f5626a/TCGA-97-8547-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/58c37d91-a1ee-43a8-9445-e5fb329b6c6d/5e9e0a0c-75c0-48aa-bd85-a2e102787ef9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/58dd5c42-d06d-4cea-a259-1c59cca8e149/e25a6dc8-7be3-4559-bd22-6493e08bae91_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5916bbb7-1c72-402b-9e13-b4d7bbefb079/a966fa0c-0507-4640-bbf7-8fd8d278914e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/592f4a0c-8cd4-448d-9f27-cba5acf229bc/4c76445c-5edb-4693-8ad0-1d7e1df343b4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5959b9d7-a503-4cda-a9e4-eb2d2fde1149/d9cd7f95-07d3-4b87-be83-87340b08d249_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/59afcb86-712c-4354-9dd2-3ce62cdfc152/TCGA-86-7955-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/59c2e607-a8d2-47b4-807d-f78f976eca66/TCGA-05-4397-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/59e255c4-8b94-43b4-a19d-7c6ad0a428ca/21900785-5668-4654-b046-19d1f2fa1674_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5a292832-320f-4c34-bb44-b238fe376a17/TCGA-95-7948-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5aa94f7b-ca45-4fc8-8886-978ea5318e6d/TCGA-55-7727-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5b334f44-a5a3-4a43-9b2f-8cdf0836aa56/98eae374-5f58-4544-bb02-bf605a09ad15_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5b48aa3c-7c1f-459a-97aa-aff1c6419e1a/TCGA-J2-A4AG-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5b6bf34a-eca6-4f41-8e8c-cb080f5069fb/24e2c0ac-fdfd-483f-bf7d-c44fa2f1b37a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5b75a818-9d77-41c3-9551-963050db0be1/bed039f5-9f03-4f0e-9208-e154756d1f92_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5c001c0d-3c4a-47a3-afd6-f5d24d8339ad/e1de25ac-689e-42c6-8277-e3206790786a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5c2a0113-559b-4c84-a339-61d792191b00/TCGA-86-7711-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5c32ed88-10b0-46ac-9416-dd7cb0553215/TCGA-35-4123-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5cb16c2a-5ee2-4a66-b723-4f830410f93c/1f0c98a3-3eed-45e0-bf81-78632c02d375_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5ce46d36-8cb3-45cc-845e-1503f7af7480/TCGA-64-5775-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5cf49e37-3284-49b2-9449-d6d67f049b72/TCGA-55-8090-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5cf56a5a-f2ce-4a6b-8490-def7fdaa7f51/TCGA-55-6712-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5cf9adbf-eac7-4a0d-87f3-04711769da60/ce93ee02-ee05-4816-be0a-efcf00278a34_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5cfc5033-4aa0-4f51-9d46-59a6176abe59/TCGA-J2-8194-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5d318ab7-c7fd-4638-a43c-fad4559ec11b/6726c157-f688-491d-8b56-35628645df89_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5d66da52-380c-4604-a95e-f369cdd28ad1/TCGA-67-6217-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5d694eed-b975-454a-bf3a-2cd16699ee30/TCGA-50-5946-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5d75fac3-8399-4ba1-9df9-a8694cbbd9db/TCGA-91-8497-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5df3ba00-5e32-4cb3-a617-eb368020d6c5/edb25338-12ee-4f1f-86e7-3f83628edd1e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5df7b8cf-f29b-46d5-a4d5-c0d4c7897e3a/TCGA-44-6774-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5e423f70-6807-448e-9c8d-a3e589a37399/TCGA-75-7027-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5e4a25c0-9932-4e06-b3f3-9bd8e1f955e4/TCGA-97-A4M3-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5e866b95-422c-439f-86d8-fb808bc63efb/TCGA-75-5125-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5ec8365b-1309-4a8a-ba3b-d94ee51a1ea3/TCGA-99-AA5R-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5ee73b72-e2fd-4b5c-b613-e9679d52eb6d/1cb5a4d2-af01-4f13-921e-068c63417920_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5eeadfc6-b7a6-4aa7-947d-a15a8c111f57/TCGA-05-4397-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5f06074d-0909-4bfc-be99-e37c4e6734dc/TCGA-55-8091-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5f6d7e1f-15f1-40cd-ab2d-9a37067801fb/TCGA-05-4389-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5f9c9621-be6a-46d4-b5c2-5d57e25463fd/TCGA-44-7660-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/5fe35f9a-3caf-4633-a5af-a4a79456c8ba/TCGA-78-8662-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/60009161-8f87-4616-bcac-62b858fd23bf/18a20bbe-9dd3-403b-97aa-3281a388467f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/603c0ce9-7ebb-45b1-8442-2ac1465c98b3/TCGA-55-7911-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/60c2b929-5423-4690-9b8e-b624e1c1db56/TCGA-05-4433-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/60c9e81f-70b9-4651-95bf-58b8977f9faf/394fe9c5-f312-4a50-9ffd-387cb8fa42b2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/61156104-550f-43b7-acc9-f2595d440592/TCGA-05-4405-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/612deac4-fd4f-49eb-aa7b-b64bec708e73/31d5675b-dbe0-4f36-aa92-d4d35c0d3a1f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/61733b40-8f09-4ab7-bee0-efcfb93b61ba/02de68cc-ad50-45fd-bb4d-819d6e0f55f5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/61b76108-b688-4185-b1b0-cb3166a99596/1ad7566e-b9dd-43a3-94dc-96f525007eaa_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/62119283-6009-47c3-a52b-cebe4fae7c11/77989dd9-720c-4e7b-b0ca-76c906dd4abb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6215fb4d-132d-47af-a46d-5525e257441d/TCGA-69-A59K-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6249ff21-18a6-479f-bf8d-12d2e8c5f463/TCGA-05-4384-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/62962a2a-c2e4-4b85-96ff-439e728569f3/TCGA-64-5815-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/62aa459a-5f99-4d33-be61-f9a1c26f2f0c/TCGA-L9-A443-01A-12D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/632c430f-2d59-462c-87dd-d2157a5d9c9b/81d8d7e2-65fa-4e92-b064-0d7d41c54e7f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/642cf571-75bd-4e9f-81af-a972b95a99af/TCGA-55-8204-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/64c85adb-28b0-497d-86e0-d6d09d56efc2/TCGA-55-8511-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/64cd8e9d-2a5d-4950-9da0-33a01bae660c/a1284409-7fb0-4e70-9aa2-a5c48d28b571_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/64f87a58-6e77-4687-b3ad-ae1a04cad634/59c9acdf-3d41-45c8-9c30-75fdc997957e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/65813243-7071-4769-bd0c-3e0a331a04f1/TCGA-55-8505-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/65bd93a4-f62c-4db7-9d2d-736ae4ed412a/TCGA-50-5946-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6641c9c2-0a8b-4eb8-b956-66623d3d9e6b/84c16359-c463-43b1-bf74-0c47a4a57bdd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/666371cb-39f0-45d2-bf5a-15c2ee364b7e/TCGA-75-6206-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/669d3329-466f-4486-865e-b55eaf50a00d/TCGA-64-1679-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/676f5409-85df-4bef-84d0-e15f6e6e9a3f/TCGA-55-7914-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/67acbea9-9bfa-4f2a-a5ba-a38f8f0aba46/TCGA-55-8091-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/67b8a6d2-1dd7-4284-ad7f-cb6985aae7ec/TCGA-55-8096-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/67e5b4c2-e1d3-4ae4-86b6-a62fc0e9835f/TCGA-86-7713-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/681e869e-f8ce-49cb-ae36-162fcd617889/d1052f23-44ec-4c05-a164-6fbd72dfc9e2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/681ec9b8-8c8a-4232-b216-d6244b2f2210/TCGA-35-3615-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/682c174e-e10f-4ee1-8784-d809a2c0c553/TCGA-99-8032-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/682ddc4e-ffe2-4ec5-902a-63b27e9d62aa/TCGA-86-6562-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6833d62e-50e2-45de-a52f-46805243fb45/TCGA-71-6725-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/68c4d57c-f4d6-4615-a451-15d441005aff/5e6cb91c-e92e-4605-9cbb-291ff6611fb0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/69356927-aee7-44be-bb45-b3cd7b25a93f/7692e684-4af2-4892-80ad-1f417b6b38fa_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/69491399-56c8-439b-bb34-4ac18b4b44d5/TCGA-05-4403-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/69ddc4a8-a6b8-4639-b6d4-8bae16f992c3/TCGA-78-7536-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/69ee92af-49f9-427f-b6a0-dc6d636baa5e/TCGA-95-7944-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/69ef569f-30e4-4f29-b686-cbb0c9cc0c27/afba3c87-4a88-4d0f-9eb1-52ad40e52b4e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6a11964a-bf43-4822-9c05-b0e87a35bab0/2dd29997-7d20-4f06-963b-c82274a2fd03_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6a5036d8-b403-4662-8dc4-0ae018cf3cc6/6963dbce-5e1f-419e-8997-1178ca90d733_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6a9c1c2c-fa60-4776-af88-1cf6b58ae211/TCGA-78-7154-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6aa4af3d-3b17-4a84-be26-5ec7c65bb961/277d2f7f-1a7f-4d39-bd15-0334cc02840e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6ab9e68e-e37b-41d0-ba26-80c08d618a45/db5f07fe-8dc0-4259-a6b1-e75b6f1188c5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6acfcdae-bbc3-4210-8207-e3f47f591625/TCGA-55-8621-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6b5b0703-5957-45b6-8b61-0ede10371cc7/TCGA-75-6214-01A-41D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6b649475-0b71-4cef-83e5-63c7d546a6de/998f30cd-957a-4e93-87a8-bed043774480_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6b6966ae-ff71-43ff-9e87-f7573ed82b39/31047f3b-8f9d-47d9-87d3-bb2f8cf7e1ef_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6b8a98bb-9826-47d6-a29b-a83f48686bb9/TCGA-80-5608-01A-31D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6bd64d42-6a3a-4979-8e4b-f4eccf613b23/93af51cc-26ff-4904-84bc-2dffb317d86a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6be22ce3-3d14-4709-92c6-075d5d23dbc1/fbce84d6-2880-45f5-bd6f-b079c33c353e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6bfe5297-b77b-400b-8a16-75354c18bf9b/acd0ee9a-c475-42fc-b38f-4a834dee85b9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6bfe6e20-55db-4856-b84e-0059b979b5fb/51e2038a-2d9d-481d-a3b6-d5d5d6b33e4f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6c303361-58c7-44b8-a1f0-2e402b26e3e5/TCGA-86-8073-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6c464588-60fa-49de-a722-8b5026a2de6c/5390f2e4-793f-4671-94bc-cb6a47024ec9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6c8bda7f-16e1-4c07-8695-19e059abe766/TCGA-86-7713-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6cecb41c-f7b1-4add-95f5-b5819ce3d1a2/2d9aba60-b696-4511-973b-06bda943d151_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d0b0736-44e5-4f2e-a163-713b12a621f5/TCGA-97-8177-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d0b401c-1a4f-4589-ac04-f2024ef9c0bc/f1ec082f-85f1-478a-a2f2-8fd6296977cb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d1756f2-e25b-4f77-ac21-f6d46e42681f/TCGA-55-6543-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d4128ba-283b-4e17-ba59-faccac68f7bf/76e90095-8965-4e75-b49d-f6ad71080439_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d4a4c39-bc04-4c73-b322-7c234eeaf330/TCGA-62-A46O-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d4fb790-7bee-41e2-ab7c-620226058df3/TCGA-44-7667-01A-31D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d503a60-0550-4856-a867-b009c941f05a/4c699d4e-a14d-4995-ae5a-499316a00157_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6d7fab8a-2155-407b-a216-2c16f8802b46/TCGA-97-8552-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6dbe6ca4-3552-422e-b315-cc5b074ee64f/TCGA-62-A46V-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6df8bf79-9895-49e8-949e-a47dd873ac9b/TCGA-75-5146-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6dfee914-e7d7-4900-aa8b-5cc0c7b058e0/TCGA-55-A57B-01A-12D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e099675-ede0-4fb3-b4e4-2a4db9991f6d/da0d3199-053b-4789-a217-ca2bfb83d57e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e308f7b-3366-4f43-adc0-f7c5c2b5e692/TCGA-J2-8194-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e393319-5a81-4ea8-b332-e20df879b61d/TCGA-75-5126-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e4e5f3f-93be-4b90-9fba-567de31de885/75006184-df55-4458-a6e7-aac42b45c2a5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e4e6f05-3fad-4f54-8ec1-257a54daca4a/TCGA-69-7973-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6e915a75-9f06-4731-8a2d-f3421edaf5c3/TCGA-97-A4M3-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6eaaba9f-d1ed-4108-b8a9-d1a6c1bb713b/TCGA-91-7771-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6ee3227a-aa3c-4696-9d7a-1bfb02c3fac5/TCGA-97-A4M7-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6f1842fc-9f06-4db4-84eb-19ff91369c85/TCGA-78-7150-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6f1ddbf9-152c-4040-91f8-d131084b112a/3165045a-107d-4e60-b2ed-6731e99927ac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6f66d96f-4da5-4e91-9b29-01f1e49efff3/TCGA-64-1677-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6f86d2c3-c7b2-4bd1-b5c2-902cdfc58274/TCGA-97-7941-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6f9a03d3-7aa0-41d7-8745-4c8b8177a4a7/483ef1dc-150e-4623-ba11-772ade84e4e4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/6fc2ccae-3e3c-4d5c-baa1-d2d5b0ec556c/889f3805-31ec-4da9-b994-e404015c3218_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7026f0d9-9536-4256-bd9d-527790b67c53/fbd7f308-18ce-41aa-9984-e5a45a9690ac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70650919-ea3b-42cd-93eb-9e8641d2e12f/TCGA-86-8074-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/707e22b1-cb33-440b-a11f-9c104eb59f91/TCGA-05-4244-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70b5aa7e-1ee4-4b80-a455-139c1cc33038/03da57e6-2e4d-4bee-a32c-9edefbfffb5e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70bc7924-c118-41e5-9b8e-18426c84eaef/TCGA-67-6216-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70d12b35-9e29-43b1-8aca-94231cf9d376/TCGA-55-A48X-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70fa7ce7-d918-428b-9194-6f0fc63f56ad/TCGA-55-8620-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/70fbc261-bd65-4949-becc-13c647154fcd/5bc01ec3-a1c2-41bb-a9c5-95946a066fa6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/712fe289-f66f-4bba-a242-0d247bb57599/6a3afda7-56bb-4120-ab92-6eda217bc214_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/713a9e27-7b94-438e-a96c-3292cefc46cd/TCGA-97-A4M5-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/713b6751-93a4-4550-a4ab-dcad473ecac1/TCGA-78-7153-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7194a315-c001-4944-b62c-0dd68cd3f5e5/44ccdf21-b349-4a79-8000-f4592848799c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/71bd79ae-0d4e-479c-904c-bc2b707cb69c/TCGA-78-7152-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/71c36787-cfc8-4170-8fcc-5a56b4128522/1291fd50-f1a9-4a2a-a2fd-2320ed01fb4e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/71eb3aca-8988-45d1-a8f7-7ee7d0db2a06/TCGA-86-8671-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/728591a1-4d81-468e-91d2-cab895ce5c05/TCGA-55-6543-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/72c71504-8eec-4067-8bdb-153a794d62eb/ec0ee49c-d1d4-490d-ba82-cfae6d451b8d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/733852a7-59e2-4970-9701-7d4cc4f63ea9/18ca20e4-d38e-4440-a893-aefd16f98f44_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/735134d2-a808-4261-a107-5f207953a031/TCGA-05-4398-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/738fd3fc-7ae0-4f4c-a168-8ceba34b954e/dd09c7aa-744a-413d-839f-e75e1825f9f9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/73c75eb6-dcc6-44b8-9876-20c1954eb068/e43f52f7-4f3a-4e39-bd0b-c758d05216b3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7428a573-70c7-4ff0-b5fb-60d0597b6e45/8645ff43-07eb-4e62-a3a0-1da7d29781b7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7456e156-02f9-4399-bd52-07fe84b2486f/TCGA-55-8206-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/74b2de00-faad-4612-b8d5-22f0ad11e43f/63012945-b19c-4abe-b2a3-c79e925f481a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/74dad24d-2b3c-4a38-bb50-67433081fc93/TCGA-55-7727-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/75b43ac6-4711-497b-a7f4-2bf48e7067ea/TCGA-78-7161-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/75f7b257-edac-4c81-92b5-e20205dfc0cd/TCGA-64-1677-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7658a8ad-e320-4693-a9a2-c293b1a82a22/TCGA-91-6828-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/76e9094e-e958-421a-9534-6a8ab16bb044/d95d7ceb-d4b2-47f7-a7fe-5a0a1b2c77b2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/76eb528f-851f-4e0d-900f-9d2206abb01d/TCGA-78-7161-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7736096e-b0b2-4a14-b70a-d6a96b2d0461/TCGA-44-A47B-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/77d969d2-d024-465a-a3df-ad66c657873e/TCGA-J2-A4AG-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7812fa84-fe91-47f1-b61a-f92f38d1ed43/b9acef1d-8029-47ab-9830-06b2ff147cdb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/78c84375-13fb-421f-a302-f81ec3405885/496befa8-e9cb-476c-a396-561b369588db_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/78dbf90f-9470-41a1-a1fa-59db731abd6f/b8434dc4-dfc4-484e-a466-13dadd1190c5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/78e3718f-b69a-4f33-82d6-286ca2375743/dea921bc-98ba-49a9-a54d-6adb9fe3eb61_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/78f364dc-6e17-403c-bdc0-e74b81303dd9/a02b45ef-4f37-49f2-8950-6faaf333718f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/792f0e76-75aa-47f4-a15e-31a0a25963dc/8dab74cd-92be-46e5-89a6-a8a001699797_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7a055524-7d7f-4662-ac49-afd825d03cbb/TCGA-55-8614-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7a3993e2-a5cf-4ff8-a41b-003b1dd1be6d/TCGA-67-3770-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7a5f4bf3-a682-4896-abfb-7f0a2a2e3f8c/2e6a7a9b-ae70-4871-856c-1d139c570919_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7a90b918-c944-4913-b267-f44193b3ce15/69def564-a4d8-4820-9ed6-f17af2cab0a7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7aa93684-872a-4ff8-9d44-99d460000bf7/TCGA-78-7537-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7b114f67-f968-44aa-8d74-f51ce5968af5/7f0b8263-9d74-429a-80eb-26f498240727_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7b1c8574-0b51-4972-846e-87edfcfdd7c1/TCGA-05-4249-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7b36c963-4e36-43f1-bd05-b4ef920fbfd9/TCGA-64-5815-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7b3934f6-7abb-4c96-9a9a-aa5b8bdbeafd/TCGA-44-7672-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7b885356-695f-4c75-b342-7d1b9537d4d1/TCGA-55-7281-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7bac0bff-0418-48f8-bb15-3d95a332026e/b710996c-8d35-4a2c-bc51-389b3e35b0f3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7bcfced6-60f8-4978-93cc-294d329b4ba9/d0635b08-5f13-4a8b-9166-ad1b3ef58081_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7c3b5667-9591-4c53-96d7-d6043fe2c45c/TCGA-O1-A52J-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7d57aa5c-dbe8-47db-a460-6e8dd16b5888/TCGA-MP-A4TK-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7d5dab1e-a41b-4b35-9c12-2e1c824fd0f9/TCGA-55-8085-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7d5eba93-f614-4bc5-b3f7-738c1171f4b1/TCGA-78-7633-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7d700d0e-3cbc-4066-b38b-c400d9b8aa4b/2e932287-e4f8-444f-a78b-bd537eb8787b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7dff2fac-bb6b-48c7-9f61-dfbf47082afa/TCGA-78-7220-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7e197baf-9558-4375-97db-d4c47ae8471c/TCGA-44-A47A-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7e3e9d3a-9b00-4301-9501-18654ae1ef70/TCGA-53-7624-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7e4611d5-e11b-47e6-b8c6-4649222516a6/309f5324-5608-4f62-b744-5ab268b70927_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7ee4a3ec-2d0f-4713-8359-99c146fc5cfd/TCGA-44-7662-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7f396e72-c3d2-4b5f-8782-95799e29c77d/5dbba493-1e13-4427-a4e5-c5e240571d09_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7f7caf43-404c-4a32-9b33-ff9b94ce0e89/TCGA-69-7761-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/7f87509b-6f26-4bc2-98c0-db861ef56a1b/0d6b80dd-76a1-4174-9275-731b4a347213_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80231918-f5b3-4437-8e21-6f6a2b2aa43b/TCGA-91-8496-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80238cbe-beb3-4eef-8ebc-c7fffa62d8ec/TCGA-99-8033-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8025dde7-e423-4db4-bef1-15d005756074/51f3205a-83e1-4961-b9be-643b7e211f30_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/807b964a-bf00-4806-aa25-583e95bd6bfd/TCGA-86-8278-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80a071d8-584a-474f-9aac-8089f62528f7/TCGA-69-7974-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80aed862-1c85-43e9-b899-8d9dba8042fb/de9a3263-6acd-4bbb-9f91-d4e7fcbefa04_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80bd800c-5f55-466a-892e-51707f90bf9f/TCGA-64-5775-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80ef6c89-da46-4db8-89fb-a53b9d6da53a/TCGA-44-3919-01A-02D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/80fd0f6a-095c-4b80-9f91-e8334cbe32da/d59902b3-f49d-4561-9a7c-6b2545588073_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8121490d-ce97-4bf9-9172-da99203b0b25/c48a8170-9bd1-4084-836c-933c79abddfc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/812e9d5d-d5dd-44f8-a2fd-518fb0dcf005/411777af-6218-4ea2-93da-c87837de074b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/81aaef9d-655b-4310-84fa-c121d80154c7/TCGA-64-1678-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/81d7a5ea-9bc1-4597-8e34-7e61ae4d0352/93bc6f55-fdb1-4bca-b07b-3370cbd8d402_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82200a0d-2296-4040-b5ff-d6caa48687cf/TCGA-38-6178-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82342beb-a1a8-4b42-9ab1-91ab9d0a68cd/TCGA-64-5778-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82469949-9e53-4eeb-bb11-ed1362625984/276f107f-63fa-4fe7-9642-5f4445d11ee5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/825e387c-8163-403e-b271-bd8b2c4873fa/5a522fe6-dfe2-49dc-b0b6-e2b7b1009975_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82bdf716-6920-4b1d-acfc-c9f6b607a7d6/TCGA-44-7672-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82c8e72a-3084-4d44-96ae-c1d53017cab1/TCGA-95-7947-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/82faf89f-7703-45f0-8c8e-d387ebd8d452/4bc393b5-f924-4d66-bc93-58a3cb2ebbc5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/839140aa-ea90-46a7-8874-39ec195a22f2/TCGA-55-7725-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/83ad3d9b-0421-4c9c-aa81-ef9e5d3af762/e5e63464-6709-4791-b2d7-9e8587876ffa_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/83d14b09-50bb-4dd0-ae8f-82b4b528e6ce/TCGA-44-7667-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/83df65e1-0b46-41cb-aba8-59df56f4c723/TCGA-44-8119-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84494bd9-155a-45c6-82e8-5a7466fe78af/522c4ef6-cb6d-4653-a150-4482eee9108c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/844f6092-35d6-4820-a8e2-e55729e49660/TCGA-86-7701-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84654096-681c-4e99-8271-7e28f5b4a147/2074a151-7437-480e-804c-e3626411e109_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84763215-e5bc-45e3-8fbc-35019fcfe918/TCGA-78-7539-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84a3984f-263e-4dea-9b39-5d49d527349c/TCGA-75-6207-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84edd144-0c73-4c91-9627-73f8b513ff63/6f0d56b0-e246-4566-affb-b8dd5e88b5ba_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/84ef3e63-c91f-4e72-9ec1-3cb35f7ab447/5c91a9d6-124c-4ffe-acf5-ce43a4c2c742_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8505e438-1337-4698-bf86-89cce675308d/65c2be47-4d48-41d1-92b9-ba37347895b1_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8513c1f5-8ef6-417f-b72f-849b714c4df4/TCGA-55-8508-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8565ccfb-c513-41ae-994a-1191062128fe/7a444ed5-fc63-4fb3-a44f-9b02a1cf58cf_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/858e6928-201d-464e-9325-11fa8bde4c6a/e4a8846f-d2c2-4648-b27e-8109e61ad0bf_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/85953f04-303e-4833-b809-e9e55ef02d5b/TCGA-67-3770-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/85e29659-9033-4448-b2fb-7cacb75410dd/f5139f81-3cca-4253-bbcd-8c210deee920_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8652e5e0-9c42-46c0-859c-7c92f66cec3c/11e7f779-f338-41d4-914d-19f50cc524c3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/866ee43b-03b2-4895-8474-3b6312680f5f/TCGA-62-8395-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/869ab190-ca61-440e-83a2-56e0a03d0518/d8e1f0e0-9915-48ef-8eb7-c30d2ead8e77_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/86fac139-c0e7-45f6-b132-af9def98ace8/fa2c3620-7e82-4b12-b135-87986f0f2890_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/874b0941-580e-40bd-b6b9-663035774f68/TCGA-86-7954-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/87fa0cc4-84bd-406d-8f22-a12e49f72b3f/TCGA-55-8512-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/87ffb475-81b3-4a08-910a-793b5fb33b80/TCGA-44-A47G-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8869422e-3fbb-4125-93be-7dfd477622b7/09bc8542-4ea1-4599-91b3-d606425b37e2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/889c8ac6-b05e-4c71-8d51-7696d7691ad2/TCGA-69-8254-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/88a14c60-d08b-4101-b75f-08a4b70f9f46/3e545b97-bdba-4f2c-8361-4656df86933d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/88f2d87e-dc0d-4b4c-881d-e8c61be3c0af/087d5121-0e86-4be5-9e53-11efd5184752_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/88f89a71-03da-44fc-90f7-49485700af9d/TCGA-55-8615-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/89646b81-4102-4429-aa18-6b3365c7fd38/TCGA-55-8097-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/896b1a2a-6a66-4a0c-a030-16cbf9548003/2d60408f-5a74-4cd1-a27e-168d1d3379e6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/898df76f-daf9-413f-a24a-373220e38308/TCGA-55-A57B-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a40a1dc-02be-4936-8c3c-559a134dfb5a/TCGA-69-7760-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a551f7a-160b-4cad-933a-f4f9af1e3114/0d0d96ae-a83b-4c09-8ed9-4a568e816efc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a5b12ec-4280-45e7-b20f-160fab1fe7a4/cd0aeed5-93a1-4287-8a88-fe6b7b5e3983_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a8281ec-a59d-46c7-a03c-2285fadcc1d8/TCGA-05-5428-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a84f548-158d-4f1f-8caa-3d043a514240/TCGA-55-A4DF-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8a9acc83-0541-4fdd-8b3a-1762b4d22aa2/53bb7112-3e38-45fe-a9c4-1b0871babf4a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8abfc126-8f30-4045-9030-4ee4ef084447/TCGA-75-7025-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8b111e1d-3340-46d1-8793-f9f7ec852c87/fcb29b66-5e7a-4ef6-860c-17929495b7e8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8b38ba4f-b892-4dc6-a16d-d7cc50447287/TCGA-MP-A4T2-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8b4670fa-b0bb-42e5-8035-0f735ef3e5f2/TCGA-69-7765-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8be7f948-a7bf-4aa1-9eb9-41ab2a4d1707/0e8a0d7d-e5e7-445c-aa46-2a65face10a5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8c1fc30c-b7c2-491d-b30a-06ea307b04ad/TCGA-86-8074-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8c32a7f7-7b94-4d70-b510-99c31881239d/TCGA-55-7816-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8c8ac52a-464b-4db5-a623-88d3fdaeb3fa/4add8465-f06a-4752-8b9f-a6f790f727b1_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8c9e38e4-426f-4fc0-9dc9-f69d29fe8951/TCGA-44-8120-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ca0b8b6-f55d-4214-976d-cf7ff2d01034/TCGA-75-7030-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ca123cc-3ef2-4add-9ed4-d7a690ccb3bd/TCGA-NJ-A55A-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8cccb32a-1890-4f5b-8a53-70a4e9580798/TCGA-35-5375-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ccf1b9a-5334-4bf0-ae23-123dd4032e6e/TCGA-62-8397-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8cd7c067-66af-4b67-b96e-360ecf5b7b1e/3e680217-92c1-4c6f-bf67-ca64e469b4a4_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8cda3102-499e-4118-bf5a-7b62419df378/TCGA-78-7145-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8cdce690-f50f-427c-949e-b07e0dd56e12/fe0f7d12-bc3b-4465-a0c8-d54f1cd2032a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8d154460-a0c0-47db-8ca2-0fdd37cfaa12/f44a21fc-e317-42c7-bab8-f0e1ac8331eb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8d3223f4-be8e-4c44-bcc3-3b73b01b60b8/ab13d9bb-ddfe-444c-b97e-aea47ab789db_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8d36dbd2-6e8a-4476-ac8f-996b176a5439/e97ec9a4-9230-46b9-a0bc-06c14ce59235_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8d88f6fc-8c90-45b8-a616-8329dd0b54d7/TCGA-05-4415-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8db093dc-362d-48c3-b03c-748aca05c6ea/0141ac27-5124-4127-9b84-d3b01f37618b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8dbb2e2f-4e24-46b8-bcee-bdc40ae6b8b0/TCGA-05-4396-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8dbdf6ad-8e77-4efe-9f76-821f7e8b394b/5f6645a8-2064-4a13-a494-2a5cf4a657d6_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8dfc1577-329c-4746-82af-29fede9bbd31/TCGA-35-3615-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8dff4ff5-0915-4770-9a01-5b0d391806f1/a210a111-8517-46a4-b157-1e9fc440c604_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8e2340c5-76cb-4b37-b9d1-a37618767d6c/72d9084a-3d9a-4ed9-974c-899b441d39e7_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8e98e66f-b736-44d2-a683-f61d1d8ee831/TCGA-97-8174-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8e9c7538-11e5-4009-89ed-8325f3828b5b/ccc4a92b-38e6-49b9-8c14-7f1d3c259dcc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ea10c46-d2ad-4d57-8bc3-34afaf565f99/TCGA-78-7158-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ed0143a-ff79-43db-8ade-36b09a1b1a39/TCGA-99-7458-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8ee96fe7-3319-4e3c-87c1-2341452e5202/f61d3411-6eed-4ede-8bba-a40af0c9da84_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8f7d258e-5c9d-441f-a44e-6065e886af3a/0f3c5bf4-1385-41d9-afa8-85ca3fbfb41f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8fa36e6b-592c-4881-8d5b-6f6f243cc27b/ed2289fe-3f41-4d1c-9e24-e931130db796_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8fa83818-87d1-4b92-94af-f58418edd281/110f8cb0-1528-4fff-bb41-50faac42619e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8fc22850-37bb-44b7-9753-6db3c1b9de00/TCGA-78-7146-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/8fe2317d-4927-4712-a287-d07dfa0cf511/TCGA-78-7148-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9022e0cb-9509-4fcb-aa79-ccf34562bb17/TCGA-93-8067-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/90d51794-0357-4998-be2a-ca24d1e95e50/TCGA-NJ-A7XG-01A-12D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/91226a8d-4d61-44a3-8b0f-462e3b476b7a/TCGA-75-5147-01A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/914e094e-67bb-45c0-8a79-557e0f7856ba/TCGA-78-7220-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/916c64d4-c370-4b0b-b806-63f645bce746/TCGA-53-A4EZ-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/916f7304-f295-4809-8671-1dee4d8cf22c/TCGA-55-7574-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/91c0fe24-b574-4ab5-a901-569d3d1138de/TCGA-86-8073-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/91c29a3e-e78e-4f47-a379-1882694ae555/0b19bee7-5281-4915-9d98-c20eb3e84ecf_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/91f5fcc0-d6e3-430e-9dd4-c1522c9ab6c5/TCGA-44-6148-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/920e8817-a728-4629-b37d-df5fd1eaf94c/3b20d548-2a7d-4031-85a1-425ca7201d7a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/921f0acf-9d6f-4481-b428-502409f62d77/TCGA-64-1676-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9220ca2d-59df-4e6d-8a85-ffb53c8c9cc7/c705e3ce-3e8c-497a-8091-04fd4d369afd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/92744fde-f031-4d75-a57c-e3661fac8a7b/TCGA-L9-A743-01A-43D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/92e8fe59-febb-48e2-affc-fe63e330807e/TCGA-55-8302-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/93188247-0065-43e8-bf0a-4bb25d2797d5/TCGA-55-7573-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9318b5d1-e9b3-43e0-9ab5-8296b8a99660/d46f0b7b-7d07-42be-8c8b-7b74e46b4179_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/932cc614-696c-443d-9e91-d98bffc23f0b/TCGA-78-7143-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/932d9125-7413-4054-a6e6-47f4a8321e51/TCGA-86-8585-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9391ef5b-4935-4fc9-a537-fdad1a765635/4af2c139-3d39-4156-b258-841b9e085e98_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9392afc1-d21a-4ac5-b204-5e060d2f2e4b/TCGA-MP-A4TH-01A-31D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/93e4a3cf-f349-44ca-b911-4005fd1777b4/TCGA-95-A4VK-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9447181a-be0f-48b9-a9d8-9946f646af6b/TCGA-62-8395-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/946c11a0-9d71-4238-af33-676f5e8175cc/TCGA-93-7348-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9473106d-9198-47c6-823e-918e5cd04ecc/c0d944e9-f981-4237-87bf-fee3a91af727_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/94d51d57-0368-44ba-9f32-84b27315aa15/504bf445-7d64-4af8-a794-51340e05ecac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/94d93581-8379-4609-8655-b04ae720b457/TCGA-64-1676-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/951ef827-6f47-4483-a030-eb0ab9502a06/TCGA-05-4418-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/95804ce6-faf3-495a-8b28-c275c9e46b61/a2c6ba64-a051-426a-8609-c2e049579e87_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/95879c5f-66be-4f83-83bf-21b9bb159f91/0a926780-9a57-4879-aefd-84904ab0108b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/95e2c662-c7a8-4b75-a624-6e4be448e707/c2dc254e-d273-4e76-81d5-b671b833b210_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/95ea8ab5-9755-465b-ba96-aa12eae57c72/TCGA-86-8669-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9611a391-fc1c-429e-b398-1f51ccd6e6c5/6ff6419e-6677-4fb8-93e9-57dbd8f44974_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/96513eff-53a6-484c-a404-92ce259b21cf/TCGA-95-7562-10B-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/968846bd-88a7-4a45-91fc-089b040d04aa/e80ca033-166a-450b-abdb-92d64f076780_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9696b53f-d30c-47ed-970f-8c01e57975fb/63c0fd22-dab6-4a0f-811a-a904d5efb1df_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/96d4030a-ced3-4d97-bd35-8516d6993c22/42a3274e-7dbd-4bc4-88c6-f68c1f611a71_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9704996e-497c-4119-b11d-56874485a100/f4b8b2d5-acc7-4fd6-b852-c80fd79be99e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9718326d-41f4-40d0-82df-a4bafd1c951b/dcd4c5c5-650b-4125-89f5-5c3a123ec954_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9723d64a-3b2f-41f5-8e53-a6b3457fb924/64fb7907-6302-4a48-a808-2f904e5b9884_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/974655ca-005e-4b5a-ac79-d3c48ba14c78/TCGA-75-7025-01A-12D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/97560248-348f-4162-85bc-a333d62be38a/f7f25df7-6411-4597-9da7-c972250e4a8e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/977abe8e-9e4f-443a-bb75-b9d898ec9857/ec948b41-23bd-40f2-be64-a9ec19fe94df_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/97afcc8f-4b94-4837-a524-d35e8e40acaf/TCGA-97-7552-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/97cc825c-9a3a-4b01-9011-f934e81de378/40d4f326-3b2a-40f3-bcf7-c71607e65052_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/97d81453-0916-47e0-be88-3439a16b3b40/e3e265cd-35af-4d72-8d57-cc7a1ce3f314_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/98619d37-a532-4624-8d28-6c192b0bd044/794f7c54-b879-49ae-b31e-1ed67a504bab_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/98686697-f762-43e1-bca9-f19640a02e7b/TCGA-05-4390-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/99186730-8cb8-426b-8aa1-8ef3e39c6a9f/TCGA-62-A46S-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9932ef3b-2cea-4e73-8807-4edd32fb4ea6/TCGA-MP-A4T6-01A-32D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/993551ab-c41d-42d7-8678-310e7553270a/8631547d-7c88-4b54-ab1f-ed6c6aed3d2e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9955435f-c493-45a7-8732-213ca64f60b6/215fbb8f-3597-4434-95e1-06870da335b5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/998e2d03-ac7f-4c2d-9187-c518faf136ff/f5a97315-1906-4774-980e-0879c6ad368e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/99d71dce-d0af-4b3b-aa43-33533c2069d3/TCGA-75-7027-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9a09d0e2-5c9c-4210-aa70-9540c471ae59/e9ce62ef-711e-4252-ac93-97b69c39041a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9a4232b3-e313-4029-ad7e-be8992832f30/61adb041-60ce-4263-beb3-33a4dbba217b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9a6dc942-d9d3-4962-aede-a33a4eaa3666/f4d1bf16-b871-4e1a-953c-3ccd47b7d21b_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9a7c2fb3-4a0b-46ce-bfcc-b3313ea030bb/08670f63-d3ea-4c70-b74c-34ecbd0b5205_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9b278385-1131-4da6-9418-0eedb3833e88/38e80506-fb51-4836-b2df-f6280a62ca7d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9b539204-c26b-4280-824f-0e9aa1ee108c/057028ca-4a69-4003-825d-aae09e0ce546_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9ba508c9-7f59-47b9-96e7-3123d9c8f128/TCGA-97-7937-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9bf802a9-ccec-4ab7-abc0-8c4e92b588df/TCGA-69-8253-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9c10ccf5-ef7d-400f-8fe9-91a5f2a9064b/TCGA-78-7147-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9c317537-ec70-4db1-9ae4-61e6e108be0d/TCGA-55-7903-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9c3d7c1a-5e86-43cb-9c42-5b248e4c66af/b1fa802a-c88e-4b8d-88ff-4545dcf326de_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9c585c56-7158-4c9b-978c-576f4af8ef1c/TCGA-78-7156-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9cb97512-cc90-433d-9138-28d1b6dc1dbd/TCGA-91-7771-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9cba19b9-3809-46cd-8723-47b272c84b9e/aad506b0-937a-4794-8a25-49815481f504_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9ce3acf6-56c9-4014-92cb-4edfb722032e/46149026-2fad-4fcd-a4e5-b02224fed763_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9cff8523-2eb5-428b-90a0-72aac65f5b75/TCGA-50-7109-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9d6c0f24-2244-4415-82cc-66c48954e158/3041c54d-431b-4cc6-8ab4-623673bc6cfd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9d97a8bd-2bdf-47fc-a77b-b468019d2979/TCGA-55-8505-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9db41106-20cf-4be3-b1d8-f4467e9d14e7/a4dc40a6-ee0f-4637-937f-406f5fc8579f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9dc4c5b4-a643-4e2b-a825-5c20e40be39d/9e3e8148-b609-4b1d-9ac9-ac8f730b14ef_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9ddd97a7-e609-476e-871e-5ec7001c5be8/TCGA-44-7659-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9df9863d-3d7a-4805-8d05-6f30d3f5e3ad/TCGA-44-6777-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9e0fb7d9-1387-4240-b23a-2556fcffd273/TCGA-64-5781-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9e1fd0c3-64e3-4f0b-bc7d-6924706cee2c/TCGA-55-7573-11A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9e4f8d7e-d7e1-4919-8c07-5c81ac9141e7/TCGA-67-6216-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9e7492e7-1e14-4de9-b385-b5f270e14935/TCGA-75-6212-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9eb28ecc-9aa4-495a-b48e-6a0f01dc94a8/TCGA-86-8075-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f461542-0372-41b8-8501-67b44ccbcab4/TCGA-05-4417-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f5f398c-3e05-4b34-a210-682846ad274f/13d5fbfa-d5a3-4195-9756-91151ecaa5cf_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9f7e8a76-9694-4f9d-b8f9-054c44ac6d2d/efa2aca1-ad9f-4e37-8729-26c8c723d985_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/9ff09396-532f-4541-990f-f0f82b0c993d/8d8c3fbf-204b-4a7a-942a-6a6ce2e0470c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a000e18e-7a89-47e5-ae62-a1be49eb43fc/TCGA-62-A46V-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a0742a3f-d7bc-430b-9174-e03b7ad74852/99a809f8-c87d-4d0a-a5d5-29918228b48f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a09fff6b-f407-4717-bece-6a9a5a8b3d8d/TCGA-97-8547-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a0f34494-7210-4657-a979-d6b9f5937d3b/TCGA-97-7547-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a14b3eb6-2791-41ec-8eda-1f44e6a65184/4770ce3b-0204-4356-bca2-a39ebc67f01a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a16c994b-3b85-4881-aca5-3ba7538e4652/2d5c6425-e3f4-4389-9ddf-fde694b4227e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a174aa3a-d059-48de-8166-0e3ea82ccda3/9f4c3b46-0fb9-404c-a7ab-7edc9b71ef7e_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a174f2ee-80f1-4581-8cc8-6a6e6435ff2f/TCGA-55-8092-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a1aade70-73f0-47f8-89f5-7642b46175bd/TCGA-55-7815-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a1f6d3d0-0b2f-44fc-8dde-863312f0899d/TCGA-55-A492-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a2305955-9544-45c3-8208-95f2b9b1e25e/d9bc04e5-b9e1-4016-83d3-7ebe762ed6e2_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a277946a-200e-4e91-98e2-4b37ce9c059f/68185a4b-cc12-494d-99f5-84f5888a24f9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a292c31f-3e0b-4f3f-b313-19a75098936c/360dc7d6-cc31-46ef-aa63-ec1cca5615d1_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a2cfffbb-bcb8-45c8-bf26-9179e4ac0a96/TCGA-55-A493-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a318ad60-1443-4603-a0ff-9f8f8cbea99a/8d18acbc-42d7-4c11-9554-9640c869b090_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a34ec906-3d2e-44a4-87bc-6037ba4695a4/4cd99514-20d0-439f-9b9f-bddcee5d950f_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a3a6ecb4-e2e8-4123-a4f6-54350805f129/b6676a4a-68cd-4d1b-87d4-0af63ab34299_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a3b56239-48b2-4432-8504-fc2bc7fda43d/TCGA-MP-A4T2-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a3bf5520-b683-411b-a304-881c7f84103f/TCGA-64-1679-01A-21D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a3c0452c-6ca7-43cd-93be-c3853689e7cc/TCGA-55-A491-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a5073449-6e02-4266-841d-44885eff22ae/TCGA-69-7978-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a50d6964-9937-46c1-a3eb-9fe119dc02a2/TCGA-78-7149-01A-11D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a53cb070-2387-4b79-b95a-d661bd1d6b6f/TCGA-MN-A4N1-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a5926719-b880-4989-a4ea-b797cb4b2751/TCGA-50-5044-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a61fb314-0a14-441a-82a5-b4170dfab051/8f860066-602c-4c84-84f5-5b840b3acbd0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a620e5c5-e7b5-4590-a3f1-f85e847615c1/TCGA-55-8615-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a6227ba2-2daa-41c4-a7ef-23e1d18ab0ef/66096364-c56a-4bf6-aa4b-6c4ff1e229e3_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a6327427-0f52-44a5-b38f-9eb7378aef76/TCGA-62-A470-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a6ca5e9a-24c2-489f-8551-8ff1e5188916/TCGA-97-A4LX-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a76d4ac5-0229-4a43-a289-c771c713ba3c/TCGA-50-8459-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a7d02c45-0ffd-4d55-95a4-c57004a23334/TCGA-55-8619-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a7d35c43-5253-410f-ba7e-019c851ebf13/bd3e88b3-b37c-4641-85fa-d8125ba324ca_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a7fc24f4-98cb-4682-bf80-26e9a4e11003/TCGA-44-7662-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a80b9f10-3100-4bdb-9d90-b8fab958496f/TCGA-35-4122-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a847fa6f-802a-47f6-a9d6-d7d56479b3c7/TCGA-86-8056-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a8b50c57-6a23-475c-b906-8e7a65abe486/a2329ded-d2c0-4afe-a9da-a9e29c728c15_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a8cc6703-2298-4778-a54c-66a7bb856941/3335a618-7e25-419b-98e2-ab17c9b52561_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a9166f91-db6f-472b-84f1-ffbe19022795/f5ec8547-e907-4e6f-a762-729bba6a63a9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a9c55223-7f0c-41dd-a4a5-8a4ea293dc87/fa521f2b-4bb1-4a15-9101-422b2b65489a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a9c56cf6-4bf8-4114-91c7-d174b3fa7529/e249dd46-1025-43d4-ad35-82a353842bae_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/a9c934f5-d880-43f2-8434-6ef3e4f1b415/TCGA-62-A472-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aa2043f6-ff33-47f5-84e4-2fcfaa3bc82e/d5443922-fea5-4ff0-bd6e-8ce04e1951d8_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aace6b2a-0e73-4e47-86f0-068e715bbc0c/TCGA-55-7570-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aaf6559c-bd9a-4c36-9c79-6d90edfc7947/TCGA-55-7574-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aaffd6fb-469d-4ca7-af88-32d4b32439e1/TCGA-44-A479-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ab949ce3-a371-4459-b11e-d7ac5ca52cce/TCGA-J2-A4AE-01A-21D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/abb5f538-07d9-41e7-a2ef-6f203242dd4d/08d803d0-a294-4f70-9560-563357172bbb_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/abc4382b-b84d-4f39-92a9-6322935ee76d/TCGA-55-8614-01A-11D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ac1e0577-6d94-45bd-87f9-c5135a3a60d6/b8df34f3-d151-417a-a542-68259e1006e5_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/acb39335-4178-45f6-8cf4-22d481003801/TCGA-55-8620-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/acb4dfbf-1c58-4dad-9969-58bc4d018795/b7c6b0bd-ab9e-4211-8b3a-786b45c43f3d_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ad41fcdf-c48f-47bb-bdce-db24fe005452/13562942-715c-494c-a79b-212ea8bcc2d0_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ad45a6c2-32c6-4d23-96eb-7025d33df4d8/TCGA-S2-AA1A-10A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ad75b210-996c-4269-a6e7-9b06a5e7ec6e/59c85d66-68a6-42e7-ad12-e39bf75c7663_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ad8abc8f-268c-44d8-b1fb-78b26bd3812c/e4e0be5a-9d60-4224-b4b6-eec24899d791_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/ae5fd3d0-b7d1-4af9-b3b5-430c8a115815/TCGA-86-8668-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aebfec9e-5fb5-4eaf-b657-0c59f1719e83/TCGA-55-A492-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aed94d0b-f4fd-4898-9372-d4a423d51c88/TCGA-95-7039-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aee2b301-2741-4257-b5e9-32829fb1d3bd/6d2948a0-4bb5-4959-971b-b98b8944fb0a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aeeb3c1f-153d-4b37-babe-86b3a7cc8e04/TCGA-64-1678-01A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/af084e94-1721-45f2-bfb6-733da8ef35c4/5a7f3c88-ef02-4e97-8009-5622245b6a09_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/af0cd675-c5f5-482c-acf1-9f7c9034b44f/2bde43e2-fd4e-413e-adc7-c50bca75d358_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/af2638be-805d-4ed9-9a17-47347f060c2e/TCGA-55-8089-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/af63f70a-41f4-49a4-a306-768cb6fff6a0/1f8820d1-4a97-41b7-a4d8-be832c9e0575_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/afc6e7b9-3a3c-4e9d-a1e5-f8867d955e1f/TCGA-55-8507-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/aff29084-ff34-492a-859b-3e264186038c/66bff328-e44d-4a86-ae1a-311b5ca4b44c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b0211b6e-9d15-4ce9-9b85-a91cf0bfc1e8/TCGA-86-8054-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b04b9e56-2181-4de5-8cb9-c937826df4cd/TCGA-95-7562-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b04ddb6e-4803-45d3-86fa-cb6eedb9af41/TCGA-91-8496-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b0ac8bdc-0245-4c51-b085-1dc64429fbb0/67364d7f-58eb-4954-828a-5d31dc75af20_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b0cb86fe-8b18-4d5c-b644-beaa9e4c803f/TCGA-86-8281-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b102c344-3721-4597-a701-6d82b5ae5635/85c013ac-b0e7-4acd-9031-e8e31e92c5cc_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b165188d-43e9-4c73-95eb-f68df14f24ac/TCGA-05-4250-01A-01D-A92M-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b1c7b57c-d25f-434e-b63f-d9761287da61/TCGA-93-7347-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b1f0a2bf-6905-4f97-8354-8aea351fe1e4/cd224998-3a69-4ecc-9ede-893f793e7761_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b23f2a32-2ba0-476a-ae8f-157a8a4cc824/1d5b64bd-f901-4f03-95c8-db234cd459fd_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b2d87c8e-0640-4bcf-a4f0-4bd8349b2f25/9659d703-504e-4b47-a4f4-b376dbbbfbac_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b2fe07cf-c874-4c87-951c-de041ab20bd0/TCGA-44-A47G-01A-21D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b320c9e5-888a-4d66-bb48-96fd0f976b6e/TCGA-55-8208-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3249c46-9688-41f0-9d2b-3648fd5294e8/TCGA-93-7348-01A-21D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3411e90-f22a-4c32-9155-d05df3fc99d8/TCGA-55-8506-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b377f7cb-f13a-40e8-947a-a4e895202d8f/TCGA-55-8089-10A-01D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3a1de15-85c1-4969-9b92-a2a29f75dab3/TCGA-NJ-A4YI-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3a5efe3-7376-4620-ac1d-a92bc6b7ded0/TCGA-93-A4JP-01A-11D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3dfc2e1-9ac4-4885-bfbf-7f0d9ea62f36/e6006192-08d8-4698-b8c2-d31c8d8fe442_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b3e53b80-007f-4608-ac3a-426a297e0049/21a404f5-0111-41bd-801c-55b17104c414_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b46042a0-1834-4d1f-9ec6-8885ca5b8c0e/TCGA-69-8453-01A-12D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b461c697-1b7d-44fa-8928-a97277f6de3d/TCGA-55-7576-01A-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b4a18c37-7201-4fe6-a524-1449722d1d77/a50583f2-bb90-4848-9a5f-eaf4656a1866_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b4abd28b-9355-4755-b845-2ce7c6c48d3f/TCGA-MN-A4N4-01A-12D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b4c25c3d-ca61-471a-bd47-93230ad89cce/TCGA-99-8028-01A-11D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b5174962-bd18-412a-a36e-e41785e21ff6/1b9d52af-09b9-4975-9534-6c7daef96f2a_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b51b4cbf-8c6f-4490-a694-b4b3624c3331/TCGA-75-6211-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b56da557-2c11-495a-a5d7-678fb61ba4eb/TCGA-44-A47A-10A-01D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b59a3501-000b-43cd-8560-f8512d2ca3d5/TCGA-55-7913-01B-11D-A92O-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b59a6868-0799-458d-a9a1-95e4e4c64347/TCGA-86-7955-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b5d4b950-f1d3-45e9-b95e-cd8f8a0a5830/TCGA-44-8119-01A-11D-A92N-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b61a9185-6271-4d50-b05d-89c05befba3d/TCGA-78-7150-01A-21D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b63ca5d2-8331-43b1-85b7-310d73fe0c1f/a5d194b2-0a92-49a1-9ac3-fc4c1b6ade92_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b63e2b19-7b44-49d1-87b1-bc9b627c3aa4/TCGA-83-5908-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b66e7fb6-a446-4f4e-90c3-ea7e84ea3b04/834b6b1b-591d-44f2-ba34-030e87e693df_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b677bd8e-89c3-4db4-9ad6-dc5d408ddb53/04467fab-bb2f-4f26-af9e-39c09d920a63_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b6d9a1b3-443a-472b-aeac-76e52082f181/TCGA-62-A46P-10A-01D-A92P-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b6e7679b-df05-4b4e-8325-a8fd5d389b71/da919955-6b7a-4a94-b62f-4a31555a4aa9_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b6e7fe83-e271-4875-829e-2ca25c4c9f75/TCGA-86-8055-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b6eeb1b4-647e-4d85-826a-3d6388aa8ea0/TCGA-86-8359-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b70ec76c-5b4f-45af-83ef-6db482ba4508/TCGA-67-3771-10A-01D-A92Q-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b71623c3-2616-4cc4-ba20-a5e6e8b42b71/TCGA-78-7537-01A-11D-A92R-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b84127bf-10f2-43fe-85bc-082648b71564/404d058b-187c-4ce1-bc1f-f5607088a86c_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b881bce2-1f8e-45c4-9f64-00c30f34bdae/TCGA-95-8494-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b89cc455-53e3-4c3b-bcfe-d296324195d2/TCGA-MP-A4TI-10A-01D-A92T-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b8f66fac-c25e-4bc3-a6ba-9474de6f8bd0/14bf9bfb-14d6-4cac-a556-828f680e8a15_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b9ab729e-5b5a-493d-b16b-7425c833c84f/907a44d7-1da0-489d-b707-b8f4239bbe71_wgs_gdc_realn.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b9b856c7-954c-423d-b2f1-a58d1f015617/TCGA-95-8039-10A-01D-A92S-36.WholeGenome.RP-1657.cram
+bash	realign_cram_hg19.sh	/data/ITEB_Lung_WGS/Public_WGS/TCGA_2024/b9cde832-6d53-4263-9995-c3d1b9533fc0/TCGA-86-7953-10A-01D-A92R-36.WholeGenome.RP-1657.cram
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
