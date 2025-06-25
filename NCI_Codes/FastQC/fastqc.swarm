@@ -1,0 +1,8 @@
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_5_1.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_5_2.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_6_1.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_6_2.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_7_1.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_7_2.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_8_1.fastq.gz
+module load fastqc; cd .; fastqc -o fastqc_results ERR194160_NA12891_C0JVFACXX_8_2.fastq.gz
