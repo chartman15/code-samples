@@ -1,0 +1,54 @@
+---
+title: "190429-0268_0577_Monocle"
+author: "Caleb Hartman"
+date: "2023-09-28"
+---
+
+http://cole-trapnell-lab.github.io/monocle-release/docs/#getting-started-with-monocle
+
+```{r}
+
+library(monocle)
+
+
+```
+
+Monocle takes a matrix of gene expression values as calculated by Cufflinks or another gene expression estimation program. Monocle can work with relative expression values (e.g. FPKM or TPM units) or absolute transcript counts (e.g. from UMI experiments). Monocle also works "out-of-the-box" with the transcript count matrices produced by CellRanger, the software pipeline for analyzing experiments from the 10X Genomics Chromium instrument. Monocle also works well with data from other RNA-Seq workflows such as sci-RNA-Seq and instruments like the Biorad ddSEQ. Although Monocle can be used with raw read counts, these are not directly proportional to expression values unless you normalize them by length, so some Monocle functions could produce nonsense results. If you don't have UMI counts, We recommend you load up FPKM or TPM values instead of raw read counts.
+
+
+```{r}
+# Convert Seurat object into CellDataSet object 
+
+cds <- as.CellDataSet(seurat_phase)
+
+```
+
+Estimate size factors and dispersions. 
+```{r}
+
+cds <- estimateSizeFactors(cds)
+cds <- estimateDispersions(cds)
+
+
+
+```
+
+
+*Filtering low quality cells*
+
+Find how many genes are expressed in a given cell. 
+
+```{r}
+cds <- detectGenes(cds, min_expr = 0.1)
+
+print(head(fData(cds)))
+```
+
+```{r}
+expressed_genes <- row.names(subset(fData(cds),
+    num_cells_expressed >= 10))
+
+
+```
+
+The vector expressed_genes now holds the identifiers for genes expressed in at least 10 cells of the data set. We will use this list later when we put the cells in order of biological progress. It is also sometimes convenient to exclude genes expressed in few if any cells from the CellDataSet object so as not to waste CPU time analyzing them for differential expression.

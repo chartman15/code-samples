@@ -1,0 +1,255 @@
+---
+title: "Melanoma_normalization_2d"
+output: html_document
+date: "2024-02-29"
+---
+
+2d: SCTransform on each sample independently (without library/log normalization, ScaleData, or FindVariableFeatures), integration with Harmony, clustering and cell typing on merged data 
+
+Integration strategy: Perform (SCT) normalization independently on each sample and find integration features across samples using Seurat; then merge these normalized Seurat objects, set variable features manually to integration features, and finally calculate PCs on this merged object. Run Harmony.  
+
+
+```{r}
+library(Seurat)
+library(tidyverse)
+library(RCurl)
+library(cowplot)
+library(scater)
+library(SingleR)
+library(celldex)
+library(pheatmap)
+library(viridis)
+library(scRNAseq)
+library(ExperimentHub)
+library(scuttle)
+library(POMA)
+library(dplyr)
+library(RColorBrewer)
+library(harmony)
+
+```
+
+
+Split seurat object by condition/sample to perform cell cycle scoring and SCT on all samples individually
+
+```{r}
+# load in filtered seurat
+
+#load("/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/final_filtered_seurat.RData")
+
+split_seurat <- SplitObject(filtered_seurat, split.by = "sample")
+
+
+```
+
+
+Run the following loop to perform sctransform on all samples
+
+```{r}
+for (i in 1:length(split_seurat)) 
+{
+    split_seurat[[i]] <- SCTransform(split_seurat[[i]], vst.flavor = "v2")
+
+}
+```
+
+
+```{r}
+# Find most variable features across samples to integrate
+integ_features <- SelectIntegrationFeatures(object.list = split_seurat, nfeatures = 2000) 
+
+# Merge normalized samples
+merged_seurat <- merge(x = split_seurat[[1]],
+		       y = split_seurat[2:length(split_seurat)],
+		       merge.data = TRUE)
+
+DefaultAssay(merged_seurat) <- "SCT"
+
+# Manually set variable features of merged Seurat object
+VariableFeatures(merged_seurat) <- integ_features
+
+# Calculate PCs using manually set variable features
+seurat_phase <- RunPCA(merged_seurat, assay = "SCT")
+```
+
+
+*Evaluate cell cycle effects*
+```{r}
+
+# Load cell cycle markers
+load("/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/cycle.rda")
+
+#seurat_phase <- JoinLayers(seurat_phase)
+
+# Score cells for cell cycle
+seurat_phase <- CellCycleScoring(seurat_phase, 
+                                 g2m.features = g2m_genes, 
+                                 s.features = s_genes)
+
+# View cell cycle scores and phases assigned to cells                                 
+View(seurat_phase@meta.data)               
+
+```
+
+
+*PCA for cell cycle effects*
+
+```{r}
+
+pdf("Cell_Cycle_PCA.pdf", width = 10, height = 12)
+
+#seurat_phase <- RunPCA(seurat_phase, assay = "SCT")
+
+print(seurat_phase[['pca']], dims = 1:5, nfeatures = 5)
+DimHeatmap(seurat_phase, dims = 1, cells = 500, balanced = TRUE)
+DimPlot(seurat_phase, reduction = "pca", group.by = "Phase", split.by = "Phase")
+
+dev.off()
+
+```
+
+*PCA for Mitochondrial expression*
+
+```{r}
+pdf("Mitochondrial_PCA.pdf", width = 10, height = 12)
+
+# Check quartile values
+summary(seurat_phase@meta.data$mitoRatio)
+
+# Turn mitoRatio into categorical factor vector based on quartile values
+seurat_phase@meta.data$mitoFr <- cut(seurat_phase@meta.data$mitoRatio, 
+                   breaks=c(-Inf, 0.001220, 0.002492, 0.004652, Inf), 
+                   labels=c("Low","Medium","Medium high", "High"))
+
+# the 'breaks' numbers correspond to the 1st quartile, median, and 3rd quartile respectively 
+
+# Plot the PCA colored by mitoFr
+DimPlot(seurat_phase, reduction = "pca", group.by= "mitoFr", split.by = "mitoFr")
+
+dev.off()
+```
+
+
+*Save seurat_phase*
+
+```{r}
+
+saveRDS(seurat_phase, "seurat_phase.rds")
+
+
+```
+
+
+*Harmony*
+```{r}
+seurat_phase <- RunHarmony(seurat_phase, 
+				group.by.vars = "sample", 
+				reduction = "pca", assay.use = "SCT", reduction.save = "harmony")
+
+
+
+
+```
+
+
+*Elbow plot to determine number of PCs to keep*
+```{r}
+
+# Printing out the most variable genes driving PCs
+print(x = seurat_phase[["harmony"]], dims = 1:10, nfeatures = 5)
+
+ElbowPlot(seurat_phase)
+
+```
+
+```{r}
+seurat_phase <- RunUMAP(seurat_phase, reduction = "harmony", assay = "SCT", dims = 1:10)
+
+```
+
+
+
+*Clustering after Harmony integrating*
+
+FindNeighbors
+FindClusters
+
+
+```{r}
+n.pcs <- 10
+seed.use <- 123
+res.used <- c(0.1, 0.3, 0.5, 0.7, 0.9)
+
+seurat_phase <- FindNeighbors(seurat_phase, reduction = 'harmony')
+seurat_phase <- FindClusters(seurat_phase,resolution=res.used) 
+                             
+
+
+```
+
+
+*Visualize clusters*
+```{r}
+# explore resolutions 
+seurat_phase@meta.data %>% view()
+
+
+```
+
+Plot UMAP at different resolutions
+```{r}
+
+#seurat_phase <- RunUMAP(seurat_phase, reduction = "harmony", assay = "SCT", dims = 1:n.pcs)
+
+#-----------------------------------------
+
+Idents(object = seurat_phase) <- "SCT_snn_res.0.1"
+
+DimPlot(seurat_phase, label=TRUE, label.size = 6, reduction = "umap") 
+
+#-----------------------------------------
+
+Idents(object = seurat_phase) <- "SCT_snn_res.0.5"
+
+DimPlot(seurat_phase, label=TRUE, label.size = 6, reduction = "umap")
+
+#-----------------------------------------
+
+Idents(object = seurat_phase) <- "SCT_snn_res.0.9"
+
+DimPlot(seurat_phase, label=TRUE, label.size = 6, reduction = "umap") 
+
+
+
+```
+
+
+
+Plot FeaturePlot to find uninteresting sources of variation
+
+```{r}
+
+pdf("Mel_Norm_2d_Variation.pdf", width=30, height=30)
+
+metrics <- c("nUMI", "nGene", "mitoRatio", "S.Score", "G2M.Score")
+
+FeaturePlot(seurat_phase, reduction="umap", features=metrics, min.cutoff="q10", max.cutoff="q90", pt.size=0.1, label = TRUE, order = TRUE)
+
+dev.off()
+
+```
+
+
+Save final version of 'seurat_phase' before cell typing 
+```{r}
+
+#saveRDS(seurat_phase, "seurat_phase_final.rds")
+
+save(seurat_phase, file = "seurat_phase_final.RData")
+
+
+# End of Script 
+```
+
+END of Script
+

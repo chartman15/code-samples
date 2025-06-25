@@ -1,0 +1,333 @@
+---
+title: "190429-0268_0577_normalization_integration"
+author: "Caleb Hartman"
+date: "2023-09-18"
+---
+
+Workflow derived from: https://hbctraining.github.io/scRNA-seq_online/schedule/links-to-lessons.html
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Overarching goal of clustering** 
+
+The goal of our clustering analysis is to keep the major sources of variation in our dataset that should define our cell types, while restricting the variation due to uninteresting sources of variation (sequencing depth, cell cycle differences, mitochondrial expression, batch effects, etc.). Then, to determine the cell types present, we will perform a clustering analysis using the most variable genes to define the major sources of variation in the dataset.
+
+**Normalization**
+
+Regardless of which method is used for normalization, it can be helpful to think of it as a two-step process (even though it is often described as a single step in most papers). The first is a scaling step and the second is a transformation.
+
+1. Scaling
+
+The first step in normalization is to multiply each UMI count by a cell specific factor to get all cells to have the same UMI counts. Why would we want to do this? Different cells have different amounts of mRNA; this could be due to differences between cell types or variation within the same cell type depending on how well the chemistry worked in one drop versus another platform. In either case, we are not interested in comparing these absolute counts between cells. Instead we are interested in comparing concentrations, and scaling helps achieve this.
+
+2. Transformation
+
+(a) Simple transformations are those which apply the same function to each individual measurement. Common examples include a log transform (which is applied in the original Seurat workflow), or a square root transform (less commonly used). Effective normalization (using the log transform) is only observed with low/medium abundance genes. Is there a solution? 
+
+(b) The proposed solution was the use of Pearson residuals for transformation, as implemented in Seurat’s SCTransform function. With this approach:
+
+Measurements are multiplied by a gene-specific weight.
+Each gene is weighted based on how much evidence there is that it is non-uniformly expressed across cells.
+More evidence = more weight; Genes that are expressed in only a small fraction of cells will be favored (useful for finding rare cell populations).
+Not just a consideration of the expression level, but also the distribution of expression. 
+
+```{r}
+# Load libraries
+library(Seurat)
+library(tidyverse)
+library(RCurl)
+library(cowplot)
+library(harmony)
+
+```
+
+*Simple Normalization (log transform)*
+
+```{r}
+# Simple Normalization of the counts
+seurat_phase <- NormalizeData(filtered_seurat)
+```
+
+*Evaluate cell cycle effects*
+
+To assign each cell a score based on its expression of G2/M and S phase markers, we can use the Seurat function CellCycleScoring(). This function calculates cell cycle phase scores based on canonical markers that are required as input.
+
+We have provided a list of human cell cycle markers for you in the data folder as an Rdata file called cycle.rda. However, if you are not working with human data we have additional materials detailing how to acquire cell cycle markers for other organisms of interest.
+
+```{r}
+# Load cell cycle markers
+load("cycle.rda")
+
+# Score cells for cell cycle
+seurat_phase <- CellCycleScoring(seurat_phase, g2m.features = g2m_genes, s.features = s_genes)
+
+# View cell cycle scores and phases assigned to cells                                 
+View(seurat_phase@meta.data) 
+
+```
+
+*Principal Component Analysis (PCA)*
+
+Determine whether cell cycle is a major source of variation in our dataset using PCA.
+Principal Component Analysis (PCA) is a technique used to emphasize variation as well as similarity, and to bring out strong patterns in a dataset; it is one of the methods used for “dimensionality reduction”.
+
+NOTE: For datasets with a larger number of cells, only the PC1 and PC2 scores for each cell are usually plotted, or used for visualization. Since these PCs explain the most variation in the dataset, the expectation is that the cells that are more similar to each other will cluster together with PC1 and PC2.
+
+The Seurat ScaleData() function will scale the data by:
+
+1. adjusting the expression of each gene to give a mean expression across cells to be 0
+2. scaling expression of each gene to give a variance across cells to be 1
+
+NOTE: For the selection.method and nfeatures arguments the values specified are the default settings.
+
+*PCA for cell cycle*
+
+```{r}
+# Scale the counts
+#seurat_phase <- ScaleData(seurat_phase)
+
+
+# Identify the most variable genes
+seurat_phase <- FindVariableFeatures(seurat_phase, 
+                     selection.method = "vst",
+                     dispersion.cutoff = c(0.5,Inf),
+                     mean.cutoff = c(0.1, Inf),
+                     verbose = FALSE)
+		     
+# Scale the counts
+seurat_phase <- ScaleData(seurat_phase)
+
+# Perform PCA
+seurat_phase <- RunPCA(seurat_phase)
+
+# Plot the PCA colored by cell cycle phase
+DimPlot(seurat_phase,
+        reduction = "pca",
+        group.by= "Phase",
+        split.by = "Phase")
+```
+
+We do not see large differences due to cell cycle phase. Based on this plot, we would not regress out the variation due to cell cycle.
+
+*PCA for Mitochondrial expression*
+
+Next we will evaluate mitochondrial expression effects.
+
+```{r}
+# Check quartile values
+summary(seurat_phase@meta.data$mitoRatio)
+
+# Turn mitoRatio into categorical factor vector based on quartile values
+seurat_phase@meta.data$mitoFr <- cut(seurat_phase@meta.data$mitoRatio, 
+                   breaks=c(-Inf, 0.0001809, 0.0007806, 0.0023488, Inf), 
+                   labels=c("Low","Medium","Medium high", "High"))
+
+# the 'breaks' numbers correspond to the 1st quartile, median, and 3rd quartile respectively 
+
+# Plot the PCA colored by mitoFr
+DimPlot(seurat_phase,
+        reduction = "pca",
+        group.by= "mitoFr",
+        split.by = "mitoFr")
+
+```
+
+There is a different pattern/concentration in the scatter for the plot containing cells with "High" mitochondrial expression. 
+
+Would you regress out mitochndrial fraction as a source of unwanted variation?
+
+Since we see this clear difference, we will regress out the 'mitoRatio' when we identify the most variant genes.
+
+*Look at clustering first without integrating* 
+```{r}
+
+n.pcs <- 25
+#res.used <- 1.8
+seed.use <- 123
+res.used <- 0.5
+
+seurat_phase <- FindNeighbors(seurat_phase,dims=1:n.pcs)
+seurat_phase <- FindClusters(seurat_phase,resolution=res.used)
+seurat_phase <- RunUMAP(seurat_phase, dims=1:n.pcs, seed.use=seed.use)
+DimPlot(seurat_phase, reduction="umap",label=TRUE,pt.size=0.1,group.by="sample")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+*SCTransform for Normalization* 
+
+The SCTransform method was proposed as a better alternative to the log transform normalization method that we used for exploring sources of unwanted variation. The method not only normalizes data, but it also performs a variance stabilization and allows for additional covariates to be regressed out.
+
+As described earlier, all genes cannot be treated the same. As such, the SCTransform method constructs a generalized linear model (GLM) for each gene with UMI counts as the response and sequencing depth as the explanatory variable. Information is pooled across genes with similar abundances, to regularize parameter estimates and obtain residuals which represent effectively normalized data values which are no longer correlated with sequencing depth. 
+
+
+```{r}
+# Split seurat object by condition to perform cell cycle scoring and SCT on all samples
+split_seurat <- SplitObject(seurat_phase, split.by = "sample")
+
+split_seurat <- split_seurat[c("c0268", "c0577")]
+```
+
+
+Now we will use a ‘for loop’ to run the SCTransform() on each sample, and regress out mitochondrial expression by specifying in the vars.to.regress argument of the SCTransform() function.
+
+Before we run this 'for loop,' we know that the output can generate large R objects/variables in terms of memory. If we have a large dataset, then we might need to adjust the limit for allowable object sizes within R (Default is 500 * 1024 ^ 2 = 500 Mb) using the following code.
+
+```{r}
+options(future.globals.maxSize = 4000 * 1024^2)
+
+```
+
+Now, we run the following loop to perform the sctransform on all samples and regress out mitochondrial variation.  
+
+```{r}
+for (i in 1:length(split_seurat)) 
+{
+  
+  split_seurat[[i]] <- SCTransform(split_seurat[[i]], vars.to.regress =
+                       c("mitoRatio"), vst.flavor = "v2", variable.features.n =
+                       20000)
+}
+
+```
+
+NOTE: By default, after normalizing, adjusting the variance, and regressing out uninteresting sources of variation, SCTransform will rank the genes by residual variance and output the 3000 most variant genes. If the dataset has larger cell numbers, then it may be beneficial to adjust this parameter higher using the 'variable.features.n' argument.
+
+
+```{r}
+# Check which assays are stored in objects
+split_seurat$c0268@assays
+split_seurat$c0577@assays
+```
+
+*Save split Seurat object*
+
+```{r}
+# Save the split seurat object
+saveRDS(split_seurat, "split_seurat.rds")
+```
+
+```{r}
+# Load the split seurat object into the environment
+split_seurat <- readRDS("split_seurat.rds")
+```
+
+**Integration**
+
+Generally, we always look at our clustering without integration before deciding whether we need to perform any alignment. Do not just always perform integration because you think there might be differences - explore the data.
+
+Condition-specific clustering of the cells indicates that we need to integrate the cells across conditions to ensure that cells of the same cell type cluster together.
+
+Why is it important the cells of the same cell type cluster together?
+
+We want to identify cell types which are present in all samples/conditions/modalities within our dataset, and therefore would like to observe a representation of cells from both samples/conditions/modalities in every cluster. This will enable more interpretable results downstream (i.e. DE analysis, ligand-receptor analysis, differential abundance analysis…).
+
+Goal is to integrate/align samples across conditions using shared highly variable genes if cells cluster by sample, condition, batch, dataset, or modality. Ensure that the cell types of one condition/dataset align with the same celltypes of the other conditions/datasets (e.g. control macrophages align with stimulated macrophages). 
+
+Ex. Condition = control vs stimulated 
+
+Ex. Dataset = different datasets created from different library prep methods on the same samples (celseq vs smartseq2 vs fluidigmc1 etc.)
+
+Ex. Modality = scRNA-seq vs scATAC-seq 
+
+Ex. Batch = experimental conditions make batching necessary 
+
+*Integration using Canonical Correlation Analysis (CCA)*
+
+1. Perform canonical correlation analysis (CCA): identifies the greatest sources of variation in the data, but only if it is shared or conserved across the conditions/groups (using the 3000 most variant genes from each sample).
+
+2. Identify anchors or mutual nearest neighbors (MNNs) across datasets (sometimes incorrect anchors are identified).
+
+3. Filter anchors to remove incorrect anchors. 
+
+4. Integrate the conditions/datasets. 
+
+```{r}
+# Select the most variable features to use for integration
+integ_features <- SelectIntegrationFeatures(object.list = split_seurat, 
+                                            nfeatures = 15000) 
+
+# Prepare the SCT list object for integration
+split_seurat <- PrepSCTIntegration(object.list = split_seurat, 
+                                   anchor.features = integ_features)
+
+# Perform CCA: Find best anchors - can take a while to run
+integ_anchors <- FindIntegrationAnchors(object.list = split_seurat, 
+                                        normalization.method = "SCT", 
+                                        anchor.features = integ_features)
+
+# Integrate across conditions
+seurat_integrated <- IntegrateData(anchorset = integ_anchors, 
+                                   normalization.method = "SCT")
+```
+
+*PCA and UMAP Visualization*
+
+After integration, to visualize the integrated data we can use dimensionality reduction techniques, such as PCA and Uniform Manifold Approximation and Projection (UMAP). While PCA will determine all PCs, we can only plot two at a time. In contrast, UMAP will take the information from any number of top PCs to arrange the cells in this multidimensional space. It will take those distances in multidimensional space and plot them in two dimensions working to preserve local and global structure. In this way, the distances between cells represent similarity in expression.
+
+```{r}
+# Run PCA
+seurat_integrated <- RunPCA(object = seurat_integrated)
+
+# Plot PCA
+PCAPlot(seurat_integrated, split.by = "sample")
+```
+
+Good overlay of control and stimulated conditions via PCA. 
+
+```{r}
+# Run UMAP
+seurat_integrated <- RunUMAP(seurat_integrated, dims = 1:25, reduction = "pca", seed.use = 123)
+
+# Plot UMAP                             
+DimPlot(seurat_integrated) 
+
+# Plot UMAP split by sample
+DimPlot(seurat_integrated, split.by = "sample")
+```
+
+*Save integrated seurat object*
+
+```{r}
+# Save integrated seurat object
+saveRDS(seurat_integrated, "results/integrated_seurat.rds")
+```
+
+*Can use Harmony to correct for batch effect: sample ID, experiment date, condition, etc.* 
+
+```{r}
+
+harmonized_seurat <- RunHarmony(integrated_seurat, group.by.vars = c('orig.ident'), reduction = 'pca', assay.use = 'SCT', reduction.save = 'harmony')
+
+```
+Make sure Harmony integration is reflected in data visualization. Create a UMAP from these harmony embeddings instead of PCs. 
+
+```{r}
+
+harmonized_seurat <- RunUMAP(harmonized_seurat, reduction = 'harmony', assay = 'SCT', dims = 1:40)
+
+DimPlot(harmonized_seurat)
+
+```
+
+When running downstream clustering analysis, remember to set the reduction as 'harmony' instead of 'pca.' (if you choose to run Harmony)
+
+
+
+
+
+
+
+
+*END of Script*

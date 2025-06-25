@@ -1,0 +1,305 @@
+---
+title: "Melanoma_CellTyping_1a"
+output: html_document
+date: "2024-02-06"
+---
+
+1a: Library Normalize or log Normalize, skip integration, clustering and cell typing on individual samples 
+
+
+**Cell Typing/Annotation**
+
+
+```{r}
+library(Seurat)
+library(SeuratWrappers)
+library(dplyr)
+library(patchwork)
+library(RColorBrewer)
+library(clustree)
+library(gridExtra)
+library(ggridges)
+library(DoubletFinder)
+library(tidyverse)
+require(ggridges)
+require(ggplot2)
+library(readr)
+```
+
+
+Parameters
+```{r}
+
+n.pcs <- 10
+res.used <- 0.9
+seed.use <- 123
+
+```
+
+
+*Get reference data*
+```{r}
+
+cell.genes <- read_tsv("/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/Melanoma_cell_type_markers.txt")
+
+# filter to Primary Type
+
+genes_to_check <- cell.genes %>% filter(Type=="Primary") %>% pull(gene)
+genes_to_check <- as.character(unique(genes_to_check))
+genes_to_check <- genes_to_check[genes_to_check %in% rownames(seurat_phase@assays$RNA)]
+
+
+
+```
+
+
+*Visualize individual markers*
+
+
+Dot plot
+```{r}
+pdf(paste("Mel_Norm_1a_",n.pcs,"pcs_res",res.used,"_seed",seed.use,"_primary_marker_DotPlot.pdf", sep=""),  width = 12, height = 20)
+
+DotPlot(seurat_phase, features=genes_to_check) + coord_flip()
+
+dev.off()
+
+
+```
+Filtering
+```{r}
+
+genes_to_check <- cell.genes %>% filter(Type=="Primary")  %>% filter(gene%in%rownames(seurat_phase@assays$RNA))
+
+seurat_phase <- JoinLayers(seurat_phase)
+
+data_temp <- as.data.frame(as.matrix(GetAssayData(object=seurat_phase[["RNA"]], layer="data")))
+
+umap.coor <- Embeddings(seurat_phase,reduction="umap")
+
+ggplot.list.umap <- list()
+ggplot.list.2 <- list()
+
+
+
+
+
+```
+
+BoxPlot
+```{r}
+
+for(i in 1:nrow(genes_to_check)){
+  gene.name <- genes_to_check$gene[i]
+  cell.type <- genes_to_check$cell[i]
+  gene.exp <- data_temp[gene.name,]
+  clusters <- seurat_phase@meta.data$seurat_clusters
+  
+  df.umap <- as.data.frame(cbind(umap.coor, as.data.frame(t(gene.exp)),clusters))
+  colnames(df.umap) <- c(colnames(umap.coor),"gene.exp","clusters")
+  
+  ggplot.list.umap[[i]] <- ggplot(df.umap, aes(UMAP_1, UMAP_2)) +
+    geom_point(aes(colour=gene.exp), size=0.7) +
+    scale_colour_gradientn(colours=c("lightgray", "blue"),limits=quantile(df.umap$gene.exp,probs=c(0.05,0.95)),oob=scales::squish) +
+    labs(title=paste(gene.name,"(",cell.type,")",sep=""))+
+    theme(plot.title=element_text(hjust=0.5))
+
+
+  ggplot.list.2[[i]] <-ggplot(df.umap) +
+    geom_boxplot(aes(x=clusters,y=gene.exp))  + 
+    ggtitle(paste(gene.name,"(",cell.type,")",sep="")) + ylab("gene expression (log)")+
+    theme(plot.title=element_text(hjust=0.5))
+}
+
+
+n <- length(ggplot.list.umap)
+ncol <- floor(sqrt(n))
+pdf(paste("Mel_Norm_1a_",n.pcs,"pcs_res",res.used,"_seed",seed.use,"_Boxplot_primary_markers.pdf", sep=""), width = 20, height = 20)
+do.call("grid.arrange", c(ggplot.list.2, ncol=ncol))
+dev.off()
+
+
+
+
+
+```
+
+Feature Plot
+```{r}
+
+pdf(paste("Mel_Norm_1a_",n.pcs,"pcs_res",res.used,"_seed",seed.use,"_UMAP_primary_markers.pdf", sep=""),width=30,height=30)
+FeaturePlot(seurat_phase, reduction="umap",features=genes_to_check$gene,ncol=floor(sqrt(nrow(genes_to_check))),min.cutoff="q10",max.cutoff="q90",pt.size=0.1)
+dev.off()
+
+
+```
+
+
+
+*Visualize average marker expression*
+
+```{r}
+
+require(ggridges)
+require(ggplot2)
+
+cell.genes <- cell.genes[as.character(cell.genes$Type)=="Primary",]
+cell.types  <- as.character(unique(cell.genes$cell))
+umap.coor <- Embeddings(seurat_phase,reduction = "umap")
+ggplot.list <- list()
+ggplot.list.2 <- list()
+
+seurat_phase <- JoinLayers(seurat_phase)
+data_temp <- as.data.frame(as.matrix(GetAssayData(object = seurat_phase, layer = "data")))
+
+
+for(i in 1:length(unique(cell.types)))
+
+{
+   genes <- as.character(cell.genes$gene[which(cell.genes$cell==cell.types[i])])
+   genes <- intersect(genes,rownames(data_temp))
+   gene.exp <- colMeans(as.matrix(data_temp[genes,]))[row.names(umap.coor)]
+   clusters <- seurat_phase@meta.data$RNA_snn_res.0.9
+  
+   temp <- as.data.frame(cbind(umap.coor, as.data.frame(gene.exp), as.data.frame(clusters)))
+  
+   ggplot.list[[i]] <- ggplot(temp, aes(UMAP_1, UMAP_2)) + 
+   geom_point(aes(colour = gene.exp),size=1) + 
+   scale_colour_gradient(low = "grey95", high = "red") + 
+   labs(title = cell.types[i], subtitle = paste(genes, collapse = ", "))
+   
+   # Boxplot per cluster
+   
+   ggplot.list.2[[i]] <- ggplot(temp, aes(x = clusters, y = gene.exp)) + 
+   geom_boxplot() + 
+   ggtitle(cell.types[i]) + ylab("Average gene expression (log)")
+  
+}
+
+# Plot all 
+require(grid)
+require(gridExtra)
+require(gbm)
+n <- length(ggplot.list)
+nCol <- floor(sqrt(n))
+
+
+
+
+```
+
+BoxPlot
+```{r}
+
+
+# Expression per cluster boxplots 
+pdf(paste("Mel_Norm_1a_",n.pcs,"pcs_res",res.used,"_seed",seed.use,"_boxplots_with_avg_expression_of_cell_markers.pdf", sep=""),20,20)
+
+do.call("grid.arrange", c(ggplot.list.2, ncol=nCol))
+
+dev.off()
+
+
+```
+
+*General Cluster Annotation*
+
+```{r}
+
+seurat_phase@meta.data$seurat_cluster_id <- seurat_phase@meta.data$seurat_clusters
+
+seurat_phase@meta.data$main_cluster_id <- seurat_phase@meta.data$seurat_clusters
+
+cluster.id <- sort(as.numeric(unique(as.character(seurat_phase@meta.data$seurat_cluster_id))))
+
+free_annotation <- c("fibroblasts", #0
+                     "melanocytes, fibroblasts", #1
+                     "T cells", #2
+                     "fibroblasts", #3
+                     "vascular endothelial, keratinocytes", #4
+                     "T cells, keratinocytes", #5
+                     "keratinocytes", #6
+                     "fibroblasts, schwann cells", #7
+                     "mixed", #8
+                     "melanocytes", #9
+                     "melanocytes, fibroblasts", #10
+                     "macrophages, DCs, monocytes", #11
+                     "keratinocytes", #12
+                     "keratinocytes", #13
+                     "mixed", #14
+                     "melanocytes, fibroblasts", #15
+                     "sweat gland, keratinocytes", #16
+                     "keratinocytes", #17
+                     "vascular endothelial, lymphatic endothelial", #18
+                     "melanocytes, fibroblasts", #19
+                     "sweat gland", #20
+                     "melanocytes, fibroblasts", #21
+                     "melanocytes, fibroblasts", #22
+                     "melanocytes, fibroblasts", #23
+                     "neuron", #24
+                     "fibroblasts" #25
+                     
+)
+
+
+
+seurat_phase@meta.data$main_cluster_id <- as.character(plyr::mapvalues(seurat_phase@meta.data$seurat_clusters, from=cluster.id, to=free_annotation))
+
+view(table(seurat_phase@meta.data$main_cluster_id))
+
+save(seurat_phase, file='Mel_Norm_1a_Annotated_Cluster.RData')
+
+
+```
+
+Plot UMAP
+```{r}
+seurat_phase <- RenameIdents(object = seurat_phase, 
+                     "0" = "fibroblasts", 
+                     "1" = "melanocytes, fibroblasts", 
+                     "2" = "T cells", 
+                     "3" = "fibroblasts", 
+                     "4" = "vascular endothelial, keratinocytes", 
+                     "5" = "T cells, keratinocytes", 
+                     "6" = "keratinocytes", 
+                     "7" = "fibroblasts, schwann cells", 
+                     "8" = "mixed", 
+                     "9" = "melanocytes", 
+                     "10" = "melanocytes, fibroblasts", 
+                     "11" = "macrophages, DCs, monocytes", 
+                     "12" = "keratinocytes", 
+                     "13" = "keratinocytes", 
+                     "14" = "mixed", 
+                     "15" = "melanocytes, fibroblasts", 
+                     "16" = "sweat gland, keratinocytes", 
+                     "17" = "keratinocytes", 
+                     "18" = "vascular endothelial, lymphatic endothelial", 
+                     "19" = "melanocytes, fibroblasts", 
+                     "20" = "sweat gland", 
+                     "21" = "melanocytes, fibroblasts", 
+                     "22" = "melanocytes, fibroblasts", 
+                     "23" = "melanocytes, fibroblasts", 
+                     "24" = "neuron",
+                     "25" = "fibroblasts")
+
+
+# Plot the UMAP
+
+pdf(paste("Mel_Norm_1a_",n.pcs,"pcs_res",res.used,"_seed",seed.use,"_Annotated_UMAP.pdf", sep=""),20,20)
+
+DimPlot(object = seurat_phase, 
+        reduction = "umap", 
+        label = TRUE,
+        label.size = 3,
+        repel = TRUE)
+dev.off()
+
+#End of Script
+```
+
+
+
+END of SCRIPT
+
+
+

@@ -1,0 +1,583 @@
+---
+title: "HBC Single Cell - Clustering"
+author: "Caleb Hartman"
+date: "2023-09-09"
+---
+
+Workflow derived from: https://hbctraining.github.io/scRNA-seq_online/schedule/links-to-lessons.html
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Clustering cells based on top PCs (metagenes)**
+
+*ID significant PCs*
+
+To overcome the extensive technical noise in the expression of any single gene for scRNA-seq data, Seurat assigns cells to clusters based on their PCA scores derived from the expression of the integrated most variable genes, with each PC essentially representing a “metagene” that combines information across a correlated gene set. Determining how many PCs to include in the clustering step is therefore important to ensure that we are capturing the majority of the variation, or cell types, present in our dataset.
+
+It is useful to explore the PCs prior to deciding which PCs to include for the downstream clustering analysis.
+
+(a) One way of exploring the PCs is using a heatmap to visualize the most variant genes for select PCs with the genes and cells ordered by PCA scores. The idea here is to look at the PCs and determine whether the genes driving them make sense for differentiating the different cell types.
+
+The cells argument specifies the number of cells with the most negative or positive PCA scores to use for the plotting. The idea is that we are looking for a PC where the heatmap starts to look more “fuzzy”, i.e. where the distinctions between the groups of genes is not so distinct.
+
+```{r}
+# Explore heatmap of PCs
+DimHeatmap(seurat_integrated, 
+           dims = 1:9, 
+           cells = 500, 
+           balanced = TRUE)
+```
+
+We could also print out the top 10 (or more) positive and negative genes by PCA scores driving the PCs.
+
+```{r}
+# Printing out the most variable genes driving PCs
+print(x = seurat_integrated[["pca"]], 
+      dims = 1:10, 
+      nfeatures = 5)
+```
+
+(b) The elbow plot is another helpful way to determine how many PCs to use for clustering so that we are capturing majority of the variation in the data. The elbow plot visualizes the standard deviation of each PC, and we are looking for where the standard deviations begins to plateau. Essentially, where the elbow appears is usually the threshold for identifying the majority of the variation. However, this method can be quite subjective.
+
+```{r}
+# Plot the elbow plot
+ElbowPlot(object = seurat_integrated, 
+          ndims = 40)
+```
+
+Based on this plot, we could roughly determine the majority of the variation by where the elbow occurs around PC8 - PC10, or one could argue that it should be when the data points start to get close to the X-axis, PC30 or so. This gives us a very rough idea of the number of PCs needed to be included, we can extract the information visualized here in a more quantitative manner, which may be a bit more reliable.
+
+While the above 2 methods were used a lot more with older methods from Seurat for normalization and identification of variable genes, they are no longer as important as they used to be. This is because the SCTransform method is more accurate than older methods.
+
+*Cluster the cells*
+
+```{r}
+# Determine the K-nearest neighbor graph
+seurat_integrated <- FindNeighbors(object = seurat_integrated, dims = 1:40)
+
+# Determine the clusters for various resolutions                                
+seurat_integrated <- FindClusters(object = seurat_integrated,
+                               resolution = c(0.4, 0.6, 0.8, 1.0, 1.4))
+```
+
+The resolution is an important argument that sets the “granularity” of the downstream clustering and will need to be optimized for every individual experiment. For datasets of 3,000 - 5,000 cells, the resolution set between 0.4-1.4 generally yields good clustering. Increased resolution values lead to a greater number of clusters, which is often required for larger datasets.
+
+**Visualize cell clusters**
+
+```{r}
+# Explore resolutions
+seurat_integrated@meta.data %>% 
+        View()
+```
+
+To choose a resolution to start with, we often pick something in the middle of the range like 0.6 or 0.8. We will start with a resolution of 0.8 by assigning the identity of the clusters using the Idents() function.
+
+```{r}
+# Assign identity of clusters
+Idents(object = seurat_integrated) <- "integrated_snn_res.0.8"
+
+# Plot the UMAP
+DimPlot(seurat_integrated, reduction = "umap", label = TRUE, label.size = 6)
+```
+
+It can be useful to explore other resolutions as well. It will give you a quick idea about how the clusters would change based on the resolution parameter. For example, let’s switch to a resolution of 0.4:
+
+```{r}
+# Assign identity of clusters
+Idents(object = seurat_integrated) <- "integrated_snn_res.0.4"
+
+# Plot the UMAP
+DimPlot(seurat_integrated, reduction = "umap", label = TRUE, label.size = 6)
+```
+
+It is possible that there is some variability in the way your clusters look compared to the image in this lesson. In particular you may see a difference in the labeling of clusters. This is an unfortunate consequence of slight variations in the versions of packages (mostly Seurat dependencies). My clusters look different, so I will load in the lesson-provided object to overwrite my previous object.  
+
+```{r}
+load(bzfile("data/additional_data/seurat_integrated.RData.bz2"))
+
+# Assign identity of clusters
+Idents(object = seurat_integrated) <- "integrated_snn_res.0.8"
+
+# Plot the UMAP
+DimPlot(seurat_integrated,
+        reduction = "umap",
+        label = TRUE,
+        label.size = 6)
+
+```
+
+**Clustering Quality Control**
+
+```{r}
+# Extract identity and sample information from seurat object to determine the number of cells per cluster per sample
+
+n_cells <- FetchData(seurat_integrated, 
+                     vars = c("ident", "orig.ident")) %>%
+        dplyr::count(ident, orig.ident) %>%
+        tidyr::spread(ident, n)
+
+# View table
+View(n_cells)
+```
+
+```{r}
+# UMAP of cells in each cluster by sample
+DimPlot(seurat_integrated, 
+        label = TRUE, 
+        split.by = "sample")  + NoLegend()
+```
+Generally, we expect to see the majority of the cell type clusters to be present in all conditions; however, depending on the experiment we might expect to see some condition-specific cell types present. These clusters look pretty similar between conditions, which is good since we expected similar cell types to be present in both control and stimulated conditions.
+
+*Segregation by cell cycle phase*
+
+Next, we can explore whether the cells cluster by the different cell cycle phases. We did not regress out variation due to cell cycle phase when we performed the SCTransform normalization and regression of uninteresting sources of variation. If our cell clusters showed large differences in cell cycle expression, this would be an indication we would want to re-run the SCTransform and add the S.Score and G2M.Score to our variables to regress, then re-run the rest of the steps.
+
+```{r}
+# Explore whether clusters segregate by cell cycle phase
+DimPlot(seurat_integrated,
+        label = TRUE, 
+        split.by = "Phase")  + NoLegend()
+```
+Do not see large clustering differences by cell cycle, so proceed with QC. 
+
+*Segregating clusters by (a) number UMIs, (b) genes per cell, (c) S-phase markers, (d) G2M-phase markers, and mitochondrial gene expression via UMAP*
+
+```{r}
+# Determine metrics to plot present in seurat_integrated@meta.data
+metrics <-  c("nUMI", "nGene", "S.Score", "G2M.Score", "mitoRatio")
+
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = metrics,
+            pt.size = 0.4, 
+            order = TRUE,
+            min.cutoff = 'q10',
+            label = TRUE)
+```
+NOTE: The order argument will plot the positive cells above the negative cells, while the min.cutoff argument will determine the threshold for shading. A min.cutoff of q10 translates to 'the 10% of cells with the lowest expression of the gene will not exhibit any purple shading (completely gray).' 
+
+The metrics seem to be relatively even across the clusters, with the exception of nGene exhibiting slightly higher values in clusters to the left of the plot. We can keep an eye on these clusters to see whether the cell types may explain the increase.
+
+*Exploring PCs driving the unique clusters*
+
+We need to extract the UMAP coordinate information for the cells along with their corresponding scores for each of the PCs to view by UMAP.
+
+```{r}
+# Defining the information in the seurat object of interest
+columns <- c(paste0("PC_", 1:16),
+            "ident",
+            "UMAP_1", "UMAP_2")
+
+# Extracting this data from the seurat object
+pc_data <- FetchData(seurat_integrated, 
+                     vars = columns)
+```
+
+NOTE: How did we know in the FetchData() function to include UMAP_1 to obtain the UMAP coordinates? The Seurat cheatsheet describes the function as being able to pull any data from the expression matrices, cell embeddings, or metadata.
+
+For instance, if you explore the seurat_integrated@reductions list object, the first component is for PCA, and includes a slot for cell.embeddings. We can use the column names (PC_1, PC_2, PC_3, etc.) to pull out the coordinates or PC scores corresponding to each cell for each of the PCs.
+
+We could do the same thing for UMAP:
+```{r}
+# Extract the UMAP coordinates for the first 10 cells
+seurat_integrated@reductions$umap@cell.embeddings[1:10, 1:2]
+```
+Cells colored according to top 16 PCs.
+
+```{r}
+# Adding cluster label to center of cluster on UMAP
+umap_label <- FetchData(seurat_integrated, 
+                        vars = c("ident", "UMAP_1", "UMAP_2"))  %>%
+  group_by(ident) %>%
+  summarise(x=mean(UMAP_1), y=mean(UMAP_2))
+  
+# Plotting a UMAP plot for each of the PCs
+map(paste0("PC_", 1:16), function(pc){
+        ggplot(pc_data, 
+               aes(UMAP_1, UMAP_2)) +
+                geom_point(aes_string(color=pc), 
+                           alpha = 0.7) +
+                scale_color_gradient(guide = FALSE, 
+                                     low = "grey90", 
+                                     high = "blue")  +
+                geom_text(data=umap_label, 
+                          aes(label=ident, x, y)) +
+                ggtitle(pc)
+}) %>% 
+        plot_grid(plotlist = .)
+```
+
+We can see how the clusters are represented by the different PCs. For instance, the genes driving PC_2 exhibit higher expression in clusters 8 and 12. We could look back at our genes driving this PC to get an idea of what the cell types might be:
+
+```{r}
+# Examine PCA results 
+print(seurat_integrated[["pca"]], dims = 1:5, nfeatures = 5)
+```
+With the GNLY and NKG7 genes as positive markers of PC_2, we can hypothesize that clusters 8 and 12 correspond to NK cells. This just hints at what the clusters identity could be, with the identities of the clusters being determined through a combination of the PCs.
+
+*Marker Genes*
+
+```{r}
+DimPlot(object = seurat_integrated, reduction = "umap", label = TRUE) + NoLegend()
+
+```
+The FeaturePlot() function from seurat makes it easy to visualize a handful of genes using the gene IDs stored in the Seurat object. We can easily explore the expression of known gene markers on top of our UMAP visualizations. Let’s go through and determine the identities of the clusters. To access the normalized expression levels of all genes, we can use the normalized count data stored in the RNA assay slot.
+
+
+```{r}
+# Select the RNA counts slot to be the default assay
+DefaultAssay(seurat_integrated) <- "RNA"
+
+# Normalize RNA data for visualization purposes
+seurat_integrated <- NormalizeData(seurat_integrated, verbose = FALSE)
+```
+
+NOTE: Assay is a slot defined in the Seurat object, it has multiple slots within it. In a given assay, the counts slot stores non-normalized raw counts, and the data slot stores normalized expression data. Therefore, when we run the NormalizeData() function in the above code, the normalized data will be stored in the data slot of the RNA assay while the counts slot will remain unaltered.
+
+For the markers used here, we are looking for positive markers and consistency of expression of the markers across the clusters. For example, if there are two markers for a cell type and only one of them is expressed in a cluster - then we cannot reliably assign that cluster to the cell type.
+
+*CD14+ monocyte markers*
+```{r}
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = c("CD14", "LYZ"), 
+            order = TRUE,
+            min.cutoff = 'q10', 
+            label = TRUE)
+```
+CD14+ monocytes appear to correspond to clusters 1, and 3. We wouldn’t include clusters 14 and 10 because they do not highly express both of these markers.
+
+*FCGR3A+ monocyte markers*
+```{r}
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = c("FCGR3A", "MS4A7"), 
+            order = TRUE,
+            min.cutoff = 'q10', 
+            label = TRUE)
+```
+FCGR3A+ monocytes markers distinctly highlight cluster 10, although we do see some decent expression in clusters 1 and 3 We would like to see additional markers for FCGR3A+ cells show up when we perform the marker identification.
+
+*Macrophages*
+
+```{r}
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = c("MARCO", "ITGAM", "ADGRE1"), 
+            order = TRUE,
+            min.cutoff = 'q10', 
+            label = TRUE)
+```
+We don’t see much overlap of our markers, so no clusters appear to correspond to macrophages; perhaps cell culture conditions negatively selected for macrophages (more highly adherent).
+
+*Conventional dendritic cell markers*
+```{r}
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = c("FCER1A", "CST3"), 
+            order = TRUE,
+            min.cutoff = 'q10', 
+            label = TRUE)
+```
+The markers corresponding to conventional dendritic cells identify cluster 14 (both markers consistently show expression).
+
+*Plasmacytoid dendritic cell markers*
+```{r}
+FeaturePlot(seurat_integrated, 
+            reduction = "umap", 
+            features = c("IL3RA", "GZMB", "SERPINF1", "ITM2C"), 
+            order = TRUE,
+            min.cutoff = 'q10', 
+            label = TRUE)
+```
+Plasmacytoid dendritic cells represent cluster 16. While there are a lot of differences in the expression of these markers, we see cluster 16 (though small) is consistently strongly expressed.
+
+etc. (can do this for more marker genes)
+
+NOTE: If any cluster appears to contain two separate cell types, it’s helpful to increase our clustering resolution to properly subset the clusters. Alternatively, if we still can’t separate out the clusters using increased resolution, then it’s possible that we had used too few principal components such that we are just not separating out these cell types of interest. To inform our choice of PCs, we could look at our PC gene expression overlapping the UMAP plots and determine whether our cell populations are separating by the PCs included.
+
+The next step will be to perform marker identification analysis, which will output the genes that significantly differ in expression between clusters. Using these genes, we can determine or improve confidence in the identities of the clusters/subclusters.
+
+**Marker Gene Identification**
+
+Goals: (1) ID all markers in each cluster (find genes that are differentially expressed); (2) ID conserved markers for each cluster preserved across all conditions; (3) ID markers between specific clusters (differentially expressed genes between specific clusters). 
+
+*1. ID all markers in each cluster*
+
+Use when evaluating a single sample group/condition. 
+
+FindAllMarkers() Arguments:
+
+logfc.threshold: minimum log2 fold change for average expression of gene in cluster relative to the average expression in all other clusters combined. Default is 0.25.
+
+min.diff.pct: minimum percent difference between the percent of cells expressing the gene in the cluster and the percent of cells expressing gene in all other clusters combined.
+
+min.pct: only test genes that are detected in a minimum fraction of cells in either of the two populations. Meant to speed up the function by not testing genes that are very infrequently expressed. Default is 0.1.
+
+```{r}
+## DO NOT RUN THIS CODE ##
+
+# Find markers for every cluster compared to all remaining cells, report only the positive ones
+
+# markers <- FindAllMarkers(object = seurat_integrated, only.pos = TRUE, logfc.threshold = 0.25)    
+
+```
+
+By default this function will return to you genes that exhibit both positive and negative expression changes. Typically, we add an argument only.pos to opt for keeping only the positive changes. 
+
+*2. ID conserved markers for between clusters preserved in all conditions*
+
+We want to run this since our data represent 2 conditions (ctrl and stim).
+
+```{r}
+# Before we start our marker identification we will explicitly set our default assay, we want to use the normalized data, but not the integrated data.
+
+# Note that the raw and normalized counts are stored in the counts and data slots of RNA assay. By default, the functions for finding markers will use normalized data.
+
+DefaultAssay(seurat_integrated) <- "RNA"
+
+
+```
+
+FindConservedMarkers() syntax:
+
+FindConservedMarkers(seurat_integrated, 
+                     ident.1 = cluster, 
+                     grouping.var = "sample", 
+                     only.pos = TRUE, 
+                     min.diff.pct = 0.25,
+                     min.pct = 0.25,
+		                 logfc.threshold = 0.25)
+
+FindConservedMarkers() Arguments:
+
+ident.1: this function only evaluates one cluster at a time; here you would specify the cluster of interest.
+
+grouping.var: the variable (column header) in your metadata which specifies the separation of cells into groups
+
+For our analysis we will be fairly lenient and use only the log fold change threshold greater than 0.25. We will also specify to return only the positive markers for each cluster.
+
+```{r}
+cluster0_conserved_markers <- FindConservedMarkers(seurat_integrated,
+                              ident.1 = 0,
+                     	        grouping.var = "sample",
+                              only.pos = TRUE,
+		                          logfc.threshold = 0.25)
+```
+The output from the FindConservedMarkers() function, is a matrix containing a ranked list of putative markers listed by gene ID for the cluster we specified, and associated statistics. Note that the same set of statistics are computed for each group (in our case, Ctrl and Stim) and the last two columns correspond to the combined p-value across the two groups. We describe some of these columns below:
+
+- gene: gene symbol
+- condition_p_val: p-value not adjusted for multiple test correction for condition
+- condition_avg_logFC: average log fold change for condition. Positive values indicate   that the gene is more highly expressed in the cluster.
+- condition_pct.1: percentage of cells where the gene is detected in the cluster for     condition
+- condition_pct.2: percentage of cells where the gene is detected on average in the      other clusters for condition
+- condition_p_val_adj: adjusted p-value for condition, based on bonferroni correction    using all genes in the dataset, used to determine significance
+- max_pval: largest p value of p value calculated by each group/condition
+- minimump_p_val: combined p value
+
+When looking at the output, we suggest looking for markers with large differences in expression between pct.1 and pct.2 and larger fold changes. For instance if pct.1 = 0.90 and pct.2 = 0.80, it may not be as exciting of a marker. However, if pct.2 = 0.1 instead, the bigger difference would be more convincing. Also of interest is if the majority of cells expressing the marker are in my cluster of interest. If pct.1 is low, such as 0.3, it may not be as interesting. 
+
+*Adding Gene Annotations*
+
+It can be helpful to add columns with gene annotation information. In order to do that we will load in an annotation file located in your data folder, using the code provided below:
+
+```{r}
+annotations <- read.csv("data/annotation.csv")
+
+```
+
+First, we will turn the row names with gene identifiers into its own columns. Then we will merge this annotation file with our results from the FindConservedMarkers():
+
+```{r}
+# Combine markers with gene descriptions 
+cluster0_ann_markers <- cluster0_conserved_markers %>% 
+                rownames_to_column(var="gene") %>% 
+                left_join(y = unique(annotations[, c("gene_name", "description")]),
+                          by = c("gene" = "gene_name"))
+
+View(cluster0_ann_markers)
+```
+
+Let's find conserved markers for any given cluster (not just one specified cluster).
+
+```{r}
+# Create function to get conserved markers for any given cluster
+get_conserved <- function(cluster){
+  FindConservedMarkers(seurat_integrated,
+                       ident.1 = cluster,
+                       grouping.var = "sample",
+                       only.pos = TRUE) %>%
+    rownames_to_column(var = "gene") %>%
+    left_join(y = unique(annotations[, c("gene_name", "description")]),
+               by = c("gene" = "gene_name")) %>%
+    cbind(cluster_id = cluster, .)
+  }
+```
+
+Now that we have this function created we can use it as an argument to the appropriate map function. We want the output of the map family of functions to be a dataframe with each cluster output bound together by rows, we will use the map_dfr() function.
+
+map family syntax:
+map_dfr(inputs_to_function, name_of_function)
+
+Now, let’s try this function to find the conserved markers for the clusters that were identified as CD4+ T cells (4,0,6,2) from our known marker genes. Let’s see what genes we identify and of there are overlaps or obvious differences that can help us tease this apart a bit more.
+
+```{r}
+# Iterate function across desired clusters
+conserved_markers <- map_dfr(c(4,0,6,2), get_conserved)
+```
+
+For your data, you may want to run this function on all clusters, in which case you could input 0:20 instead of c(4,0,6,2); however, it would take quite a while to run. Also, it is possible that when you run this function on all clusters, in some cases you will have clusters that do not have enough cells for a particular group - and your function will fail. For these clusters you will need to use FindAllMarkers().
+
+*Evaluating marker genes*
+We would like to use these gene lists to see if we can identify which celltypes these clusters identify with. Let’s take a look at the top genes for each of the clusters and see if that gives us any hints. We can view the top 10 markers by average fold change across the two groups, for each cluster for a quick perusal:
+
+```{r}
+# Extract top 10 markers per cluster
+top10 <- conserved_markers %>% 
+  mutate(avg_fc = (ctrl_avg_log2FC + stim_avg_log2FC) /2) %>% 
+  group_by(cluster_id) %>% 
+  top_n(n = 10, 
+        wt = avg_fc)
+
+# Visualize top 10 markers per cluster
+View(top10)
+```
+
+When we look at the entire list, we see clusters 0 and 6 have some overlapping genes, like CCR7 and SELL which correspond to markers of memory T cells. It is possible that these two clusters are more similar to one another and could be merged together as naive T cells. On the other hand, with cluster 2 we observe CREM as one of our top genes: a marker gene of activated T cells. 
+
+For cluster 4, we see a lot of heat shock and DNA damage genes appear in the top gene list. Based on these markers, it is likely that these are stressed or dying cells. However, if we explore the quality metrics for these cells in more detail (i.e. mitoRatio and nUMI overlayed on the cluster), this conclusion does not make sense. There is a breadth of research supporting the association of heat shock proteins with reactive T cells in the induction of anti‐inflammatory cytokines in chronic inflammation. This is a cluster where we would need a deeper understanding of immune cells to really tease apart the results and make a final conclusion.
+
+*Visualizing marker genes*
+
+To get a better idea of cell type identity for cluster 4 we can explore the expression of different identified markers by cluster using the FeaturePlot() function. We see that only a subset of cluster 4 are highly expressing these genes.
+
+```{r}
+# Plot interesting marker gene expression for cluster 4
+FeaturePlot(object = seurat_integrated, 
+                        features = c("HSPH1", "HSPE1", "DNAJB1"),
+                         order = TRUE,
+                         min.cutoff = 'q10', 
+                         label = TRUE,
+			                   repel = TRUE)
+```
+
+We can also explore the range in expression of specific markers by using violin plots:
+
+```{r}
+# Vln plot - cluster 4
+VlnPlot(object = seurat_integrated, 
+        features = c("HSPH1", "HSPE1", "DNAJB1"))
+```
+
+*3. ID markers between specific clusters*
+
+Sometimes the list of markers returned don’t sufficiently separate some of the clusters. For instance, we had previously identified clusters 0, 4, 6 and 2 as CD4+ T cells, but when looking at marker gene lists, we identfied markers to help us further subset cells. 
+
+We were lucky and the signal observed from FindAllMarkers() helped us differentiate between naive and activated cells. Another option to identify biologically meaningful differences would be to use the FindMarkers() function to determine the genes that are differentially expressed between two specific clusters.
+
+Cluster 2 vs all other CD4+ T cell clusters: 
+```{r}
+# Determine differentiating markers for CD4+ T cell
+cd4_tcells <- FindMarkers(seurat_integrated,
+                          ident.1 = 2,
+                          ident.2 = c(0,4,6))                  
+
+# Add gene symbols to the DE table
+cd4_tcells <- cd4_tcells %>%
+  rownames_to_column(var = "gene") %>%
+  left_join(y = unique(annotations[, c("gene_name", "description")]),
+             by = c("gene" = "gene_name"))
+
+# Reorder columns and sort by padj      
+cd4_tcells <- cd4_tcells[, c(1, 3:5,2,6:7)]
+
+cd4_tcells <- cd4_tcells %>%
+  dplyr::arrange(p_val_adj) 
+
+# View data
+View(cd4_tcells)
+```
+
+
+Of these top genes the CREM gene stands out as a marker of activation with a positive fold change. We also see markers of naive or memory cells include the SELL and CCR7 genes with negative fold changes, which is in line with previous results.
+
+As markers for the naive and activated states both showed up in the marker list, it is helpful to visualize expression. Based on these plots it seems as though clusters 0 and 2 are reliably the naive T cells. However, for the activated T cells it is hard to tell. We might say that clusters 4 and 18 are activated T cells, but the CD69 expression is not as apparent as CREM. We will label the naive cells and leave the remaining clusters labeled as CD4+ T cells.
+
+Now taking all of this information, we can surmise the cell types of the different clusters and plot the cells with cell type labels.
+
+```{r}
+# Rename all identities
+seurat_integrated <- RenameIdents(object = seurat_integrated, 
+                               "0" = "Naive or memory CD4+ T cells",
+                               "1" = "CD14+ monocytes",
+                               "2" = "Activated T cells",
+                               "3" = "CD14+ monocytes",
+                               "4" = "Stressed cells / Unknown",
+                               "5" = "CD8+ T cells",
+                               "6" = "Naive or memory CD4+ T cells",
+                               "7" = "B cells",
+                               "8" = "NK cells",
+                               "9" = "CD8+ T cells",
+                               "10" = "FCGR3A+ monocytes",
+                               "11" = "B cells",
+                               "12" = "NK cells",
+                               "13" = "B cells",
+                               "14" = "Conventional dendritic cells",
+                               "15" = "Megakaryocytes",
+			                         "16" = "Plasmacytoid dendritic cells")
+
+
+# Plot the UMAP
+DimPlot(object = seurat_integrated, 
+        reduction = "umap", 
+        label = TRUE,
+        label.size = 3,
+        repel = TRUE)
+```
+
+If we wanted to remove the potentially stressed cells, we could use the subset() function:
+
+```{r}
+# Remove the stressed or dying cells
+seurat_subset_labeled <- subset(seurat_integrated,
+                               idents = "Stressed cells / Unknown", invert = TRUE)
+
+# Re-visualize the clusters
+DimPlot(object = seurat_subset_labeled, 
+        reduction = "umap", 
+        label = TRUE,
+        label.size = 3,
+	repel = TRUE)
+```
+
+Now we would want to save our final labelled Seurat object and the output of sessionInfo():
+
+```{r}
+# Save final R object
+write_rds(seurat_integrated,
+          file = "results/seurat_labelled.rds")
+
+# Create and save a text file with sessionInfo
+sink("sessionInfo_scrnaseq_Feb2023.txt")
+sessionInfo()
+sink()
+```
+
+Now that we have our clusters defined and the markers for each of our clusters, we have a few different options:
+
+- Experimentally validate intriguing markers for our identified cell types.
+
+- Explore a subset of the cell types to discover subclusters of cells as described here
+
+- Perform differential expression analysis between conditions ctrl and stim
+    - Biological replicates are necessary to proceed with this analysis, and we have         additional materials to help walk through this analysis.
+    
+- Trajectory analysis, or lineage tracing, could be performed if trying to determine     the progression between cell types or cell states. For example, we could explore any   of the following using this type of analysis:
+    - Differentiation processes
+    - Expression changes over time
+    - Cell state changes in expression
+
+*END of Script* 

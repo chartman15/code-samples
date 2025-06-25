@@ -1,0 +1,400 @@
+---
+title: "Melanoma_quality_control"
+author: "Caleb Hartman"
+date: "2024-02-02"
+---
+
+Set input path.
+```{r}
+
+#path <- "/users/Sherlock_Lung/CalebHartman"
+#setwd(path)
+#list.files(path)
+
+```
+
+Parts of Workflow derived from: https://hbctraining.github.io/scRNA-seq_online/schedule/links-to-lessons.html
+
+
+**Single-cell RNA-seq analysis - Quality control (QC) setup**
+
+```{r}
+# Load libraries
+
+library(SingleCellExperiment)
+library(Seurat)
+library(tidyverse)
+library(Matrix)
+library(scales)
+library(cowplot)
+library(RCurl)
+library(glmGamPoi)
+library(rhdf5)
+library(hdf5r)
+
+sessionInfo()
+```
+
+
+*Reading in Samples*
+
+Two melanoma subjects: 2128, 2253
+
+```{r}
+# Read in 10x hdf5 files for all samples (returns sparse matrix) 
+
+counts_2128_0261 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2128/2128_0261/raw_feature_bc_matrix.h5') 
+counts_2128_0262 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2128/2128_0262/raw_feature_bc_matrix.h5')
+
+counts_2253_0261 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2253/2253_0261/raw_feature_bc_matrix.h5')
+counts_2253_0262 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2253/2253_0262/raw_feature_bc_matrix.h5')
+counts_2253_0263 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2253/2253_0263/raw_feature_bc_matrix.h5')
+counts_2253_0265 <- Read10X_h5('/gpfs/gsfs12/users/Sherlock_Lung/CalebHartman/scMelanoma_Results/data/2253/2253_0265/raw_feature_bc_matrix.h5')
+
+# try to input a loop to read in multiple files at once
+# for (file in c("2128_0261", "2128_0262", "2253_0261", "2253_0262", "2253_0263", "2253_0265"))
+# {
+#         seurat_data <- Read10X_h5(paste0("Other/data_test/", file))
+#         seurat_obj <- CreateSeuratObject(counts = seurat_data, 
+#                                          min.features = 100, 
+#                                          project = file)
+#         assign(file, seurat_obj)
+# }
+
+```
+
+*Turn into Seurat Objects* 
+
+```{r}
+# Turn count matrix into a Seurat object (output is a Seurat object)
+
+c2128_0261 <- CreateSeuratObject(counts = counts_2128_0261, project = 'counts_2128_0261', min.features = 100) 
+c2128_0262 <- CreateSeuratObject(counts = counts_2128_0262, project = 'counts_2128_0262', min.features = 100) 
+
+c2253_0261 <- CreateSeuratObject(counts = counts_2253_0261, project = 'counts_2253_0261', min.features = 100)
+c2253_0262 <- CreateSeuratObject(counts = counts_2253_0262, project = 'counts_2253_0262', min.features = 100) 
+c2253_0263 <- CreateSeuratObject(counts = counts_2253_0263, project = 'counts_2253_0263', min.features = 100) 
+c2253_0265 <- CreateSeuratObject(counts = counts_2253_0265, project = 'counts_2253_0265', min.features = 100) 
+
+# The 'min.features' argument specifies the minimum number of genes that need to be detected per cell. 
+
+# Explore the metadata
+# head(c2128_0261@meta.data)
+
+# orig.ident: this often contains the sample identity if known, but will default to “SeuratProject”
+
+# nCount_RNA: number of UMIs (transcripts, counts) detected per cell
+
+# nFeature_RNA: number of features (genes) detected per cell
+
+```
+
+*Create a Merged Seurat Object*
+
+```{r}
+# Create a merged Seurat object; do this so we can run QC for multiple samples together  
+merged_seurat <- merge(x = c2128_0261, y = c(c2128_0262, c2253_0261, c2253_0262, c2253_0263, c2253_0265), add.cell.id = c("c2128_0261", "c2128_0262", "c2253_0261", "c2253_0262", "c2253_0263", "c2253_0265"))
+
+# Because the same cell IDs can be used for different samples, we add a sample-specific prefix to each of our cell IDs using the 'add.cell.id' argument.
+
+# Seurat now has functionality to merge many samples together. You can do this quite easily by adding all sample objects to the y argument in a vector format. An example is provided below:
+
+# merged_seurat <- merge(x = ctrl_raw_feature_bc_matrix, y = c(stim1_raw_feature_bc_matrix, stim2_raw_feature_bc_matrix, stim3_raw_feature_bc_matrix), add.cell.id = c("ctrl", "stim1", "stim2", "stim3"))
+
+
+#head(merged_seurat@meta.data)
+#tail(merged_seurat@meta.data)
+```
+
+**Single-cell RNA-seq analysis - Quality control (QC) analysis**
+
+```{r}
+view(merged_seurat@meta.data)
+
+```
+
+*Novelty score and Mitochondrial ratio*
+
+```{r}
+# In order to create the appropriate plots for the quality control analysis, we need to calculate some additional metrics. These include:
+  
+# 1. number of genes detected per UMI: this metric gives us an idea of the complexity of our dataset (more genes detected per UMI = more complex our data) (complexity = novelty score)
+
+# Add number of genes per UMI for each cell to metadata
+merged_seurat$log10GenesPerUMI <- log10(merged_seurat$nFeature_RNA) / log10(merged_seurat$nCount_RNA)
+
+
+# 2. mitochondrial ratio: this metric will give us a percentage of cell reads originating from the mitochondrial genes
+
+# For each cell, the function takes the sum of counts across all genes (features) belonging to the “Mt-“ set, and then divides by the count sum for all genes (features). This value is multiplied by 100 to obtain a percentage value. For our analysis, rather than using a percentage value we would prefer to work with the ratio value. As such, we will reverse that last step performed by the function by taking the output value and dividing by 100.
+
+# Compute percent mito ratio
+merged_seurat$mitoRatio <- PercentageFeatureSet(object = merged_seurat, pattern = "^MT-")
+merged_seurat$mitoRatio <- merged_seurat@meta.data$mitoRatio / 100
+
+# NOTE: The pattern provided (“^MT-“) works for human gene names. You may need to adjust the pattern argument depending on your organism of interest. Additionally, if you weren’t using gene names as the gene ID then this function wouldn’t work as we have used it above as the pattern will not suffice. Since there are caveats to using this function, it is advisable to manually compute this metric. If you are interested, we have code available to compute this metric on your own.
+```
+
+*Adding more metadata columns* 
+
+```{r}
+# add cell IDs and condition info to metadata of merged_seurat object 
+
+# Create metadata dataframe
+metadata <- merged_seurat@meta.data
+
+# Add cell IDs to metadata
+metadata$cells <- rownames(metadata)
+
+# Create sample column
+metadata$sample <- NA
+metadata$sample[which(str_detect(metadata$cells, "^c2128_0261_"))] <- "c2128_0261"
+metadata$sample[which(str_detect(metadata$cells, "^c2128_0262_"))] <- "c2128_0262"
+metadata$sample[which(str_detect(metadata$cells, "^c2253_0261_"))] <- "c2253_0261"
+metadata$sample[which(str_detect(metadata$cells, "^c2253_0262_"))] <- "c2253_0262"
+metadata$sample[which(str_detect(metadata$cells, "^c2253_0263_"))] <- "c2253_0263"
+metadata$sample[which(str_detect(metadata$cells, "^c2253_0265_"))] <- "c2253_0265"
+
+
+# Rename columns
+metadata <- metadata %>%
+dplyr::rename(seq_folder = orig.ident, nUMI = nCount_RNA, nGene = nFeature_RNA)
+
+view(metadata)
+
+# final metadata table will have rows that correspond to each cell, and columns with information about those cells
+```
+
+*Save updated metadata to Seurat Object* 
+
+```{r}
+# Add metadata back to Seurat object
+merged_seurat@meta.data <- metadata
+
+# Create .RData object to load at any time
+save(merged_seurat, file="merged_filtered_seurat.RData")
+```
+
+*Visualizing and Assessing quality metrics*
+
+```{r}
+pdf("MelQC_ViolinPlots.pdf", width = 10, height = 12)
+
+# Violin Plots of merged_seurat 
+
+VlnPlot(merged_seurat, features=c('nUMI','nGene','mitoRatio'), split.by = 'sample', ncol = 3)
+
+# with boxplots in violin plots
+
+VlnPlot(merged_seurat, features=c('nUMI'), split.by = 'sample') + geom_boxplot(width=0.1,fill="white")
+
+VlnPlot(merged_seurat, features=c('nGene'), split.by = 'sample') + geom_boxplot(width=0.1,fill="white")
+
+VlnPlot(merged_seurat, features=c('mitoRatio'), split.by = 'sample') + geom_boxplot(width=0.1,fill="white")
+
+dev.off()
+```
+
+FeatureScatter() can be used to plot one metric against another and draw a regression line to see if they have a linear relationship. 
+
+We do not want to see cells in the lower right corner: high transcript count but low gene count.
+We do not want to see cells in the top left corner: indicative of high gene number but shallow sequencing. 
+
+```{r}
+
+FeatureScatter(merged_seurat, feature1 = "nUMI", feature2 = "nGene") +
+  geom_smooth(method = 'lm')
+
+
+```
+
+
+```{r}
+
+# Visualize the number of cell counts per sample
+metadata %>% 
+  ggplot(aes(x=sample, fill=sample)) + 
+  geom_bar() +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  theme(plot.title = element_text(hjust=0.5, face="bold")) +
+  ggtitle("Number of Cells")
+
+# Visualize the number UMIs (transcripts) per cell
+metadata %>% 
+  ggplot(aes(color=sample, x=nUMI, fill= sample)) + 
+  geom_density(alpha = 0.2) + 
+  scale_x_log10() + 
+  theme_classic() +
+  ylab("Cell density") +
+  geom_vline(xintercept = 1000)
+
+# Visualize the distribution of genes (features) per cell
+metadata %>% 
+  ggplot(aes(color=sample, x=nGene, fill= sample)) + 
+  geom_density(alpha = 0.2) + 
+  theme_classic() +
+  ylab("Cell density") + 
+  scale_x_log10() + 
+  geom_vline(xintercept = 500)
+
+# Visualize the overall complexity of the gene expression by visualizing the genes detected per UMI (novelty score) (ratio of nGenes over nUMI)
+metadata %>%
+  ggplot(aes(x=log10GenesPerUMI, color = sample, fill=sample)) +
+  geom_density(alpha = 0.2) +
+  theme_classic() +
+  ylab("Cell density") + 
+  geom_vline(xintercept = 0.8)
+
+# Visualize the distribution of mitochondrial gene expression detected per cell
+metadata %>% 
+  ggplot(aes(color=sample, x=mitoRatio, fill=sample)) + 
+  geom_density(alpha = 0.2) + 
+  scale_x_log10() + 
+  theme_classic() +
+  ylab("Cell density") + 
+  geom_vline(xintercept = 0.05)
+
+# Visualize the correlation between genes detected and number of UMIs and determine whether there is a strong presence of cells with low numbers of genes/UMIs
+metadata %>% 
+  ggplot(aes(x=nUMI, y=nGene, color=mitoRatio)) + 
+  geom_point() + 
+  scale_colour_gradient(low = "gray90", high = "black") +
+  stat_smooth(method=lm) +
+  scale_x_log10() + 
+  scale_y_log10() + 
+  theme_classic() +
+  geom_vline(xintercept = 1000) +
+  geom_hline(yintercept = 500) +
+  facet_wrap(~sample)
+
+# Good cells will generally exhibit both higher number of genes per cell and higher numbers of UMIs (upper right quadrant of the plot). Cells that are poor quality are likely to have low genes and UMIs per cell, and correspond to the data points in the bottom left quadrant of the plot. With this plot we also evaluate the slope of the line, and any scatter of data points in the bottom right hand quadrant of the plot. These cells have a high number of UMIs but only a few number of genes. These could be dying cells, but also could represent a population of a low complexity celltype (i.e red blood cells).
+
+# Mitochondrial read fractions are only high in particularly low count cells with few detected genes (darker colored data points). This could be indicative of damaged/dying cells whose cytoplasmic mRNA has leaked out through a broken membrane, and thus, only mRNA located in the mitochondria is still conserved. We can see from the plot that these cells are filtered out by our count and gene number thresholds.
+```
+
+*Cell-level Filtering*
+
+```{r}
+# Cell filtering 
+
+# Filter out low quality cells using selected thresholds - these will change with experiment
+filtered_seurat <- subset(merged_seurat, subset = (nUMI > 1000) & (nGene > 500) & (log10GenesPerUMI > 0.80) & (mitoRatio < 0.05))
+
+table(merged_seurat$sample)
+table(filtered_seurat$sample)
+
+```
+
+*Gene-level Filtering (if needed)*
+
+```{r}
+# Gene filtering
+
+filtered_seurat = JoinLayers(filtered_seurat)
+
+# Extract counts
+counts <- GetAssayData(filtered_seurat, layer = "counts")
+
+# Output a logical matrix specifying for each gene whether or not there are more than zero counts per cell
+nonzero <- counts > 0
+
+# Now, we will perform some filtering by prevalence. If a gene is only expressed in a handful of cells, it is not particularly meaningful as it still brings down the averages for all other cells it is not expressed in. For our data we choose to keep only genes which are expressed in 10 or more cells. By using this filter, genes which have zero counts in all cells will effectively be removed.
+
+# Sums all TRUE values and returns TRUE if more than 10 TRUE values per gene
+keep_genes <- Matrix::rowSums(nonzero) >= 10
+
+# Only keeping those genes expressed in more than 10 cells
+filtered_counts <- counts[keep_genes, ]
+
+# Reassign to filtered Seurat object
+filtered_seurat <- CreateSeuratObject(filtered_counts, meta.data = filtered_seurat@meta.data)
+
+table(filtered_seurat$sample)
+```
+
+*Re-assess Quality Control metrics*
+
+```{r}
+# Extract the new metadata from the filtered Seurat object using the code provided below:
+  
+# Save filtered subset to new metadata
+metadata_clean <- filtered_seurat@meta.data
+
+# Perform all of the same QC plots using the filtered data.
+
+# Visualize the number of cell counts per sample
+metadata_clean %>% 
+  ggplot(aes(x=sample, fill=sample)) + 
+  geom_bar() +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  theme(plot.title = element_text(hjust=0.5, face="bold")) +
+  ggtitle("NCells - clean metadata")
+
+# Visualize the number UMIs/transcripts per cell
+metadata_clean %>% 
+  ggplot(aes(color=sample, x=nUMI, fill= sample)) + 
+  geom_density(alpha = 0.2) + 
+  scale_x_log10() + 
+  theme_classic() +
+  ylab("Cell density") +
+  geom_vline(xintercept = 1000)
+
+# Visualize the distribution of genes detected per cell
+metadata_clean %>% 
+  ggplot(aes(color=sample, x=nGene, fill= sample)) + 
+  geom_density(alpha = 0.2) + 
+  theme_classic() +
+  scale_x_log10() + 
+  geom_vline(xintercept = 500)
+
+# Visualize the overall complexity of the gene expression by visualizing the genes detected per UMI (novelty score) (ratio of nGenes over nUMI)
+metadata_clean %>%
+  ggplot(aes(x=log10GenesPerUMI, color = sample, fill=sample)) +
+  geom_density(alpha = 0.2) +
+  theme_classic() +
+  geom_vline(xintercept = 0.8)
+
+# Visualize the distribution of mitochondrial gene expression detected per cell
+metadata_clean %>% 
+  ggplot(aes(color=sample, x=mitoRatio, fill=sample)) + 
+  geom_density(alpha = 0.2) + 
+  scale_x_log10() + 
+  theme_classic() +
+  geom_vline(xintercept = 0.05)
+
+# Visualize the correlation between genes detected and number of UMIs and determine whether strong presence of cells with low numbers of genes/UMIs
+metadata_clean %>% 
+  ggplot(aes(x=nUMI, y=nGene, color=mitoRatio)) + 
+  geom_point() + 
+  scale_colour_gradient(low = "gray90", high = "black") +
+  stat_smooth(method=lm) +
+  scale_x_log10() + 
+  scale_y_log10() + 
+  theme_classic() +
+  geom_vline(xintercept = 1000) +
+  geom_hline(yintercept = 500) +
+  facet_wrap(~sample)
+
+```
+
+```{r}
+FeatureScatter(filtered_seurat, feature1 = "nUMI", feature2 = "nGene") +
+  geom_smooth(method = 'lm')
+```
+
+
+
+
+*Saving filtered cells*
+
+```{r}
+# Create .RData object to load at any time
+save(filtered_seurat, file="final_filtered_seurat.RData")
+
+# END of Script
+```
+
+*END of Script*
+

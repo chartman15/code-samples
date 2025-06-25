@@ -1,0 +1,84 @@
+---
+title: "190429-0268_0577_CellAnnotation_SingleR (Part 2)"
+author: "Caleb Hartman"
+date: "2023-09-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*Load Libraries*
+```{r}
+library(SingleR)
+library(celldex)
+library(pheatmap)
+library(Seurat)
+library(tidyverse)
+library(viridis)
+library(scRNAseq)
+library(ExperimentHub)
+library(scuttle)
+```
+
+############################################################################################IN PROGRESS
+
+
+*SingleR annotation using multiple reference datasets*
+
+```{r}
+# run SingleR with multiple reference datasets
+
+hpca <- celldex::HumanPrimaryCellAtlasData()
+dice <- celldex::DatabaseImmuneCellExpressionData()
+
+
+```
+Method 1: using reference specific labels 
+
+```{r}
+
+hpca$label.main
+dice$label.main
+
+```
+
+```{r}
+
+# adding reference into to labels 
+hpca$label.main <- paste0('HPCA.',hpca$label.main)
+dice$label.main <- paste0('DICE.',dice$label.main)
+
+
+
+```
+
+```{r}
+# create a combined reference based on shared genes 
+
+shared <- intersect(rownames(hpca), rownames(dice))
+combined <- cbind(hpca[shared,],dice[shared,])
+
+combined$label.main
+```
+
+```{r}
+# run singleR using combined reference 
+# saving counts into a separate object 
+
+prediction2 <- GetAssayData(seurat_integrated, slot = 'counts')
+
+com.res1 <- SingleR(test=prediction2, ref= combined, labels = combined$label.main)
+
+table(com.res1$labels)
+
+seurat_integrated$com.res1.labels <- com.res1[match(rownames(seurat_integrated@meta.data), rownames(com.res1)), 'labels']
+
+view(seurat_integrated@meta.data)
+
+DimPlot(seurat_integrated, reduction = 'umap', group.by = 'com.res1.labels')
+DimPlot(seurat_integrated, reduction = 'umap', group.by = 'singleR.labels')
+
+
+```
+

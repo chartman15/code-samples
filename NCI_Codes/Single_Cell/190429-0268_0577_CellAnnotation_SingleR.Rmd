@@ -1,0 +1,254 @@
+---
+title: "190429-0268_0577_CellAnnotation_SingleR (Part 1)"
+author: "Caleb Hartman"
+date: "2023-09-22"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*Load Libraries*
+```{r}
+library(SingleR)
+library(celldex)
+library(pheatmap)
+library(Seurat)
+library(tidyverse)
+library(viridis)
+library(scRNAseq)
+library(ExperimentHub)
+library(scuttle)
+library(POMA)
+library(dplyr)
+```
+
+*Read in integrated seurat data that was previously saved*
+
+```{r}
+integrated_seurat <- readRDS("C:/Users/hartmancas/Desktop/190429-0268_0577/results/integrated_seurat.rds")
+
+```
+
+
+*Get Reference Data*
+
+Want to use a reference dataset which has similar types of cells we should be seeing in our sample(s). Also want a reference which was generated using similar tech/protocol relative to our sample.
+
+The expression values from the reference dataset need to be log transformed. 
+
+Exceptions with Smart-seq data. 
+
+```{r}
+# get reference data
+
+ref <- celldex::HumanPrimaryCellAtlasData()
+view(as.data.frame(colData(ref)))
+
+
+```
+
+Run SingleR - the default performs annotation on each cell in test dataset; use the 'counts' variable we created previously.  
+
+```{r}
+prediction <- SingleR(test=counts,
+              ref = ref,
+              labels = ref$label.main)
+
+prediction
+
+integrated_seurat$singleR.labels <- prediction$labels[match(rownames(integrated_seurat@meta.data), rownames(prediction))]
+
+DimPlot(integrated_seurat, reduction = 'umap', group.by = 'singleR.labels', split.by = 'sample')
+```
+
+*Annotation Diagnostics - how well did SingleR do?*
+
+Based on scores within cells. 
+```{r}
+
+#prediction$scores
+
+plotScoreHeatmap(prediction)
+
+# in heat map, columns are cells and rows are labels
+# to check for unambiguous assignment, look for the high scores in each column and make sure they are assigned to a unique column in one location 
+```
+
+Based on deltas across cells. Low value = assignment is uncertain. 
+```{r}
+plotDeltaDistribution(prediction)
+
+
+```
+
+Comparing to unsupervised clustering. 
+```{r}
+tab <- table(Assigned=prediction$labels, Clusters=integrated_seurat$seurat_clusters)
+
+view(tab) # clusters and cell types assigned to each cluster 
+
+pheatmap(log10(tab+10), color=colorRampPalette(c('white','blue'))(10)) 
+
+# get rid of 0s and don't want heatmap dictated by a few large numbers; low values are white, high values are blue (create 10 values between these colors) 
+
+```
+###############################################################################In Progress 
+
+
+*Can validate with another celldex dataset*
+
+```{r}
+# get reference data 
+
+ref2 <- celldex::BlueprintEncodeData()
+view(as.data.frame(colData(ref2)))
+
+
+
+```
+
+
+```{r}
+# run singleR 
+
+prediction2 <- SingleR(test=counts,
+              ref = ref2,
+              labels = ref2$label.main)
+
+prediction2
+
+integrated_seurat$singleR.labels <- prediction2$labels[match(rownames(integrated_seurat@meta.data), rownames(prediction2))]
+
+DimPlot(integrated_seurat, reduction = 'umap', group.by = 'singleR.labels', split.by = 'sample')
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Can further validate with marker genes or use a more specific reference dataset*
+
+https://www.youtube.com/watch?v=LOYQ6zqoApg
+
+
+```{r}
+# Look at all the packages available through ExperimentHub
+
+eh <- ExperimentHub()
+
+unique(package(eh))
+
+# Pick a package and look through all its datasets 
+
+# for example, the 'listDatasets()' function lets you look through all the datasets in the 'scRNAseq package' and gives the command to load them
+
+listDatasets()
+
+# Query a specific package
+
+query(eh, c('scRNAseq','lung'))
+
+# Load in the SingleCellExperiment
+
+lung_ref_data <- ZilionisLungData()
+
+view(as.data.frame(colData(lung_ref_data)))
+
+# Remove unlabeled libraries (remove the NAs)
+
+lung_ref_data <- lung_ref_data[,!is.na(lung_ref_data$`Major cell type`)]
+
+view(as.data.frame(colData(lung_ref_data)))
+
+# # SingleR() expects reference datasets to be normalized and log-transformed.
+
+lung_ref_data <- logNormCounts(lung_ref_data)
+
+
+```
+
+```{r}
+# run singleR 
+
+prediction3 <- SingleR(test=counts,
+              ref = lung_ref_data,
+              labels = lung_ref_data$`Major cell type`)
+
+prediction3
+
+integrated_seurat$singleR.labels <- prediction3$labels[match(rownames(integrated_seurat@meta.data), rownames(prediction3))]
+
+DimPlot(integrated_seurat, reduction = 'umap', group.by = 'singleR.labels', split.by = 'sample', label = TRUE)
+
+
+```
+
+
+
+
+
+
+
+
+
+#------------------------------------------------------------------------------
+
+lung_ref_counts <- eh[['EH3460']] # Zilionis human lung counts
+lung_ref_colData <- eh[['EH3461']] # Zilionis human lung colData
+
+#save(lung_ref_counts, file='lung_ref_counts.RData')
+#save(lung_ref_colData, file='barcodes.tsv.gz')
+
+lung_ref_colData2 <- na.omit(lung_ref_colData$`Major cell type`)
+
+
+target <- data.frame(Group = lung_ref_colData$Barcode)
+
+#target2 <- target %>% distinct()
+
+features <- (lung_ref_colData)
+
+#features2 <- features %>% distinct()
+
+object <- PomaSummarizedExperiment(target = target, features = features)
+
+
+
+
+
+
+
+```
+
+```{r}
+
+lung_ref <- logNormCounts()
+
+
+
+```
+
+```{r}
+prediction2 <- SingleR(test=counts,
+               ref = lung_ref,
+               labels = lung_ref$`Major cell type`)
+
+
+
+```
+
