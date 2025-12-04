@@ -1,0 +1,1 @@
+This repository contains a collection of scripts for DNA sequence analysis, population genomics, and ancestry inference. It includes Python, R, and Bash workflows covering sequence processing, population admixture, alignment, ORF analysis, and sample verification.
