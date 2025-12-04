@@ -1,0 +1,1 @@
+This folder contains scripts for evaluating tumor-normal concordance and estimating contamination in sequencing data using Conpair. Workflows are implemented in Bash and R, designed for HPC environments with SLURM.
